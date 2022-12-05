@@ -406,6 +406,34 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "destruction.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "destruction.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "normal-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "normal-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "normal-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "normal-1-0.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -434,14 +462,14 @@
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 8,
+        "gridHeight": 8,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.5,
+        "zoomFactor": 0.5200000000000001,
         "windowMask": false
       },
       "objectsGroups": [
@@ -473,6 +501,34 @@
             },
             {
               "name": "hand"
+            },
+            {
+              "name": "foot"
+            }
+          ]
+        },
+        {
+          "name": "weapons",
+          "objects": [
+            {
+              "name": "foot"
+            },
+            {
+              "name": "hand"
+            }
+          ]
+        },
+        {
+          "name": "resisted",
+          "objects": [
+            {
+              "name": "player"
+            },
+            {
+              "name": "hand"
+            },
+            {
+              "name": "foot"
             }
           ]
         }
@@ -482,6 +538,24 @@
           "name": "hand",
           "type": "array",
           "children": []
+        },
+        {
+          "name": "footdestination",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "instances": [
@@ -538,8 +612,8 @@
           "name": "player",
           "persistentUuid": "94fb750a-9959-4bcb-abbc-90602b97f725",
           "width": 64,
-          "x": 128,
-          "y": 320,
+          "x": 192,
+          "y": 224,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -583,8 +657,8 @@
           "name": "hand",
           "persistentUuid": "a1a6da2e-af8a-48d0-9299-0a29bf945fa7",
           "width": 32,
-          "x": 160,
-          "y": 416,
+          "x": 224,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -605,8 +679,8 @@
           "name": "hand",
           "persistentUuid": "79594dd6-29a2-4d84-b5f1-ed04a0f2882d",
           "width": 32,
-          "x": 128,
-          "y": 416,
+          "x": 192,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -776,6 +850,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "foot",
+          "persistentUuid": "56249ff9-7de3-480d-9483-0436d0e83811",
+          "width": 16,
+          "x": 216,
+          "y": 416,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "foot",
+          "persistentUuid": "a6ec859d-dd90-4dc8-b6bd-db3c6e54e1bd",
+          "width": 16,
+          "x": 216,
+          "y": 416,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 800,
+          "layer": "",
+          "name": "deathlevel",
+          "persistentUuid": "8fdb34ce-987b-44a7-b8e9-3b5dd022b82b",
+          "width": 18344,
+          "x": -8656,
+          "y": 14960,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -844,8 +963,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 3,
-              "masks": 3
+              "layers": 15,
+              "masks": 15
             },
             {
               "name": "Platform",
@@ -938,6 +1057,11 @@
                           "name": "arms",
                           "x": 8.5,
                           "y": 28
+                        },
+                        {
+                          "name": "feet",
+                          "x": 8.5,
+                          "y": 50
                         }
                       ],
                       "originPoint": {
@@ -1324,8 +1448,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 3,
-              "masks": 3
+              "layers": 15,
+              "masks": 15
             }
           ],
           "animations": [
@@ -1910,6 +2034,110 @@
             }
           ],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "foot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 8,
+              "masks": 7
+            }
+          ],
+          "animations": [
+            {
+              "name": "normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "normal-1-0.png",
+                      "points": [
+                        {
+                          "name": "ankle",
+                          "x": -100,
+                          "y": 56
+                        },
+                        {
+                          "name": "farther",
+                          "x": 35,
+                          "y": 32.04999923706055
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2184,6 +2412,16 @@
                 "=",
                 "AngleDifference(hand.Angle(),AngleBetweenPositions(hand.X(),hand.Y(),player.X(),player.Y()))"
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "foot",
+                "foot",
+                "yes"
+              ]
             }
           ],
           "events": [
@@ -2201,7 +2439,7 @@
                         "value": "Physics2::Collision"
                       },
                       "parameters": [
-                        "player",
+                        "foot",
                         "Physics2",
                         "wall",
                         ""
@@ -2209,45 +2447,13 @@
                     },
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "Physics2::Collision"
                       },
                       "parameters": [
-                        "hand",
-                        "wall",
-                        "wall",
-                        "",
+                        "foot",
+                        "Physics2",
+                        "door",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "hand",
-                            "wall",
-                            "wall",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Physics2::Collision"
-                          },
-                          "parameters": [
-                            "player",
-                            "Physics2",
-                            "wall",
-                            ""
-                          ]
-                        }
                       ]
                     }
                   ]
@@ -2283,6 +2489,17 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "",
+                        "foot",
+                        "!=",
+                        "0"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2314,11 +2531,23 @@
                     },
                     {
                       "type": {
+                        "inverted": true,
                         "value": "AnimationName"
                       },
                       "parameters": [
                         "player",
-                        "\"player_normal\""
+                        "\"player_hunch\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "",
+                        "foot",
+                        "!=",
+                        "0"
                       ]
                     }
                   ],
@@ -2331,7 +2560,7 @@
                         "player",
                         "Physics2",
                         "=",
-                        "AngleDifference(0,player.Angle())"
+                        "AngleDifference(0,player.Angle())*5"
                       ]
                     }
                   ]
@@ -2343,29 +2572,22 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "Physics2::Collision"
-                  },
-                  "parameters": [
-                    "player",
-                    "Physics2",
-                    "wall",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "KeyPressed"
                   },
                   "parameters": [
                     "",
                     "a"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "foot",
+                    "!=",
+                    "0"
                   ]
                 }
               ],
@@ -2393,6 +2615,17 @@
                   "parameters": [
                     "",
                     "d"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "foot",
+                    "!=",
+                    "0"
                   ]
                 }
               ],
@@ -2480,6 +2713,50 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "wall",
+                    "foot.CenterX()",
+                    "foot.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RaycastToPosition"
+                  },
+                  "parameters": [
+                    "wall",
+                    "foot.CenterX()",
+                    "foot.CenterY()",
+                    "foot.PointX(\"farther\")",
+                    "foot.PointY(\"farther\")",
+                    "footdestination.x",
+                    "footdestination.y",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::AngularVelocity"
+                  },
+                  "parameters": [
+                    "foot",
+                    "Physics2",
+                    "=",
+                    "foot.AngleToPosition(Variable(footdestination.x),Variable(footdestination.y))"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2488,13 +2765,21 @@
           "conditions": [
             {
               "type": {
-                "value": "Physics2::Collision"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "hand",
-                "Physics2",
-                "door",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "weapons",
+                    "Physics2",
+                    "door",
+                    ""
+                  ]
+                }
               ]
             },
             {
@@ -2502,7 +2787,7 @@
                 "value": "Physics2::LinearVelocityLength"
               },
               "parameters": [
-                "hand",
+                "weapons",
                 "Physics2",
                 "!=",
                 "0"
@@ -2517,7 +2802,7 @@
               "parameters": [
                 "door",
                 "Health",
-                "hand.Physics2::LinearVelocity()",
+                "weapons.Physics2::LinearVelocity()",
                 "",
                 "",
                 ""
@@ -2733,6 +3018,36 @@
                             "hand2"
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "foot",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::AddRevoluteJointBetweenTwoBodies"
+                      },
+                      "parameters": [
+                        "foot",
+                        "Physics2",
+                        "foot.PointX(\"ankle\")",
+                        "foot.PointY(\"ankle\")",
+                        "player",
+                        "player.PointX(\"feet\")",
+                        "player.PointY(\"feet\")",
+                        "yes",
+                        "-90",
+                        "-45",
+                        "45",
+                        "",
+                        "",
+                        "",
+                        "yes",
+                        ""
                       ]
                     }
                   ]
@@ -2975,7 +3290,30 @@
                         "deletable.Variable(channel)",
                         "deletable.CenterX()",
                         "deletable.CenterY()",
-                        ""
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpatialSound::SetListenerPosition"
+                      },
+                      "parameters": [
+                        "player.CenterX()",
+                        "player.CenterY()",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "destruction.mp3",
+                        "deletable.Variable(channel)",
+                        "",
+                        "100",
+                        "1"
                       ]
                     }
                   ]
@@ -3522,7 +3860,7 @@
                 "value": "Physics2::Collision"
               },
               "parameters": [
-                "player",
+                "weapons",
                 "Physics2",
                 "elevator",
                 ""
@@ -3644,6 +3982,37 @@
               },
               "parameters": [
                 "fattie"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityLength"
+              },
+              "parameters": [
+                "resisted",
+                "Physics2",
+                ">=",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyPolarForce"
+              },
+              "parameters": [
+                "resisted",
+                "Physics2",
+                "resisted.Angle()-180",
+                "resisted.Physics2::Inertia()/10",
+                "resisted.CenterX()",
+                "resisted.CenterY()"
               ]
             }
           ]
@@ -13408,21 +13777,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 194,
-          "layer": "",
-          "name": "door",
-          "persistentUuid": "e0f26aea-d916-4749-b857-d1639cd9dd04",
-          "width": 32,
-          "x": 704,
-          "y": 0,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 158,
           "layer": "",
           "name": "wall",
@@ -13476,7 +13830,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3700000000000002,
+        "zoomFactor": 0.2500000000000001,
         "windowMask": false
       }
     },
@@ -13720,7 +14074,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.31000000000000144,
+        "zoomFactor": 0.3100000000000014,
         "windowMask": false
       }
     },
@@ -13904,7 +14258,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.6100000000000001,
+        "zoomFactor": 0.30999999999999983,
         "windowMask": false
       }
     },
@@ -14005,7 +14359,7 @@
               "folded": true,
               "name": "multi",
               "type": "number",
-              "value": -20
+              "value": -10
             }
           ]
         },
@@ -14098,6 +14452,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1024,
+          "layer": "",
+          "name": "deathlevel",
+          "persistentUuid": "c79b1ca2-11ca-4a90-bc87-92ebc8e956f6",
+          "width": 12512,
+          "x": -2816,
+          "y": 33408,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -14110,7 +14479,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.2400000000000003,
+        "zoomFactor": 0.010000000000000009,
         "windowMask": false
       }
     },
@@ -14264,7 +14633,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.19000000000000022,
+        "zoomFactor": 0.04000000000000012,
         "windowMask": false
       }
     },
@@ -14692,7 +15061,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.8200000000000003,
+        "zoomFactor": 0.3400000000000003,
         "windowMask": false
       }
     },
