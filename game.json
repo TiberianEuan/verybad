@@ -371,6 +371,41 @@
         "name": "elevator-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fatbaldbastard-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fatbaldbastard-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fattie.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "fattie.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kratos-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kratos-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "krabos.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "krabos.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -406,7 +441,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.6800000000000002,
+        "zoomFactor": 0.5,
         "windowMask": false
       },
       "objectsGroups": [
@@ -984,6 +1019,35 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "player_hunch-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "kratos",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "kratos-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1702,8 +1766,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
+              "layers": 3,
+              "masks": 3
             }
           ],
           "animations": [
@@ -1737,6 +1801,115 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "fad_bald_bastard",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "fatbaldbastard",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fatbaldbastard-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "fattie",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "fattie.mp4"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "kakos",
+          "tags": "",
+          "texture": "kratos-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Adjustment",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 0,
+                "blue": 1,
+                "brightness": 1,
+                "contrast": 1,
+                "gamma": 1,
+                "green": 1,
+                "red": 1,
+                "saturation": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
         }
       ],
       "events": [
@@ -3201,19 +3374,6 @@
           "actions": [
             {
               "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                "5",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
@@ -3340,6 +3500,112 @@
                 "elevator",
                 "+",
                 "1*elevator.Variable(multi)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "kakos",
+                "kakos",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "player",
+                "\"kratos\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "player",
+                "\"kratos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "krabos.mp3",
+                "",
+                "25",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "fattie"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "fad_bald_bastard",
+                    "fad_bald_bastard",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hand",
+                    "fad_bald_bastard",
+                    "fad_bald_bastard",
+                    "",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "fattie"
               ]
             }
           ]
@@ -8732,13 +8998,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 62,
+          "height": 94,
           "layer": "",
           "name": "wall",
           "persistentUuid": "ff10c995-5483-4f30-80c4-ea78cdc373c0",
           "width": 800,
-          "x": 0.0000152587890625,
-          "y": -286,
+          "x": 0,
+          "y": -1182,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8777,13 +9043,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 224,
+          "height": 1088,
           "layer": "",
           "name": "wall",
           "persistentUuid": "bbf59319-dee7-4f40-b979-8a01df0fa018",
-          "width": 64,
-          "x": 736,
-          "y": -224,
+          "width": 96,
+          "x": 704,
+          "y": -1088,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -8792,13 +9058,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 224,
+          "height": 1088,
           "layer": "",
           "name": "wall",
           "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
-          "width": 31.999969482421875,
+          "width": 95.99996948242188,
           "x": 0.000030517578125,
-          "y": -224,
+          "y": -1088,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -8822,13 +9088,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 224,
+          "height": 352,
           "layer": "",
           "name": "wall",
           "persistentUuid": "241fa5e8-cb7a-4bee-9914-4417670c577e",
           "width": 288,
-          "x": 224,
-          "y": -32,
+          "x": 288,
+          "y": -160,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -8842,9 +9108,54 @@
           "name": "wall",
           "persistentUuid": "bd0ba68a-f1b8-4e2b-88ad-3360f84b1a3e",
           "width": 64,
-          "x": 160,
+          "x": 224,
           "y": 64,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "fad_bald_bastard",
+          "persistentUuid": "483b24c1-271b-4062-b17d-0b8c0d5d58eb",
+          "width": 96,
+          "x": 352,
+          "y": -960,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "024010f3-5cb3-48e2-b03c-38cf69595cd5",
+          "width": 160,
+          "x": 320,
+          "y": -864,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224.00006103515625,
+          "layer": "",
+          "name": "fattie",
+          "persistentUuid": "d6ce72bc-1bb9-4853-8731-e9903a7393a8",
+          "width": 352,
+          "x": 224,
+          "y": -1408,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8860,7 +9171,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.18999999999999992,
+        "zoomFactor": 0.6100000000000001,
         "windowMask": false
       }
     },
@@ -8961,7 +9272,7 @@
               "folded": true,
               "name": "multi",
               "type": "number",
-              "value": 20
+              "value": -20
             }
           ]
         },
@@ -9039,6 +9350,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "kakos",
+          "persistentUuid": "bd47b17f-3844-4469-82e4-fcee1aff3a9d",
+          "width": 2944,
+          "x": 32,
+          "y": 256,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -9051,7 +9377,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.9200000000000008,
+        "zoomFactor": 0.8200000000000007,
         "windowMask": false
       }
     },
