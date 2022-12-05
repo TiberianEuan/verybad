@@ -18,7 +18,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Illegal Activity",
+    "name": "Collapsing Building",
     "description": "",
     "author": "",
     "windowWidth": 800,
@@ -365,12 +365,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "medkit-1.png",
+        "file": "elevator-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "medkit-1.png",
+        "name": "elevator-1.png",
         "smoothed": false,
-        "userAdded": false
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -406,7 +406,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.06999999999999992,
+        "zoomFactor": 0.6800000000000002,
         "windowMask": false
       },
       "objectsGroups": [
@@ -415,6 +415,9 @@
           "objects": [
             {
               "name": "player"
+            },
+            {
+              "name": "mouse"
             }
           ]
         },
@@ -781,10 +784,10 @@
               "HealToBeApplied": 0
             },
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             },
             {
               "name": "Physics2",
@@ -810,10 +813,10 @@
               "masks": 3
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -1665,17 +1668,24 @@
         },
         {
           "assetStoreId": "",
-          "name": "medkit",
+          "name": "elevator",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "multi",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
-              "bodyType": "Dynamic",
+              "bodyType": "Kinematic",
               "bullet": false,
               "fixedRotation": false,
               "canSleep": true,
@@ -1698,7 +1708,7 @@
           ],
           "animations": [
             {
-              "name": "medkit",
+              "name": "elevator",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1707,7 +1717,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "medkit-1.png",
+                      "image": "elevator-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2252,7 +2262,7 @@
                     "focus",
                     "30",
                     "30",
-                    "0.9",
+                    "0.5",
                     "1",
                     "\"\"",
                     "0",
@@ -2799,6 +2809,16 @@
                 "+",
                 "100"
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "money",
+                "=",
+                "\"Money: \" + ToString(GlobalVariable(money))"
+              ]
             }
           ]
         },
@@ -2902,6 +2922,16 @@
                     "money",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "money",
+                    "=",
+                    "\"Money: \" + ToString(GlobalVariable(money))"
                   ]
                 }
               ]
@@ -3296,7 +3326,7 @@
               "parameters": [
                 "player",
                 "Physics2",
-                "medkit",
+                "elevator",
                 ""
               ]
             }
@@ -3304,22 +3334,12 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "MettreY"
               },
               "parameters": [
-                "medkit",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::Heal"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                "25",
-                ""
+                "elevator",
+                "+",
+                "1*elevator.Variable(multi)"
               ]
             }
           ]
@@ -8851,13 +8871,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 1506,
           "layer": "",
           "name": "wall",
           "persistentUuid": "ff10c995-5483-4f30-80c4-ea78cdc373c0",
-          "width": 512,
-          "x": 0.0000152587890625,
-          "y": -286,
+          "width": 64.00001525878906,
+          "x": 288,
+          "y": -1664,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8896,13 +8916,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 606,
+          "height": 1760,
           "layer": "",
           "name": "wall",
           "persistentUuid": "bbf59319-dee7-4f40-b979-8a01df0fa018",
           "width": 64,
           "x": 512,
-          "y": -286,
+          "y": -1440,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -8911,11 +8931,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 158,
+          "height": 94,
           "layer": "",
           "name": "wall",
           "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
-          "width": 64,
+          "width": 351.9999694824219,
           "x": 0.000030517578125,
           "y": -158,
           "zOrder": 6,
@@ -8926,14 +8946,96 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 352,
+          "height": 64,
           "layer": "",
-          "name": "end",
-          "persistentUuid": "ff3e17d6-b20e-4b0f-b1e9-147d18a1fd14",
-          "width": 128,
-          "x": 384,
-          "y": -160,
-          "zOrder": 0,
+          "name": "elevator",
+          "persistentUuid": "a28aca6f-2590-4e2e-8a67-62e5cdc77d6d",
+          "width": 160,
+          "x": 352,
+          "y": 160,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "multi",
+              "type": "number",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "2336906f-e745-41e2-a20b-bd9a056fe9e6",
+          "width": 288,
+          "x": 288,
+          "y": -1728,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "forced_crouch_zone",
+          "persistentUuid": "c03049df-00c2-4408-96c3-9fc2c2b42d98",
+          "width": 160,
+          "x": 352,
+          "y": -1664,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "afbf9028-69c2-493f-a214-c569e232e6ed",
+          "width": 0,
+          "x": 512,
+          "y": -1632,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "15d06488-6a05-42fe-89e2-806bb3301d54",
+          "width": 64,
+          "x": 512,
+          "y": -1664,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "d23f53bf-2477-46a4-a9f0-17aeee6e3689",
+          "width": 32,
+          "x": 0,
+          "y": -64,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8949,7 +9051,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.4600000000000004,
+        "zoomFactor": 0.9200000000000008,
         "windowMask": false
       }
     },
@@ -9536,113 +9638,10 @@
       }
     },
     {
-      "associatedLayout": "game",
+      "associatedLayout": "",
       "name": "room8",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "ff10c995-5483-4f30-80c4-ea78cdc373c0",
-          "width": 800,
-          "x": 0.0000152587890625,
-          "y": -286,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 126,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "f73ff05b-d98f-485c-9d3c-9983c3570494",
-          "width": 800,
-          "x": 0,
-          "y": 194,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 194,
-          "layer": "",
-          "name": "door",
-          "persistentUuid": "e0f26aea-d916-4749-b857-d1639cd9dd04",
-          "width": 32,
-          "x": 704,
-          "y": 0,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 158,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "bbf59319-dee7-4f40-b979-8a01df0fa018",
-          "width": 64,
-          "x": 736,
-          "y": -158,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 158,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
-          "width": 64,
-          "x": 0.000030517578125,
-          "y": -158,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "spawnpoint",
-          "persistentUuid": "1a2ac996-47a6-49c8-9195-269b724c5f89",
-          "width": 0,
-          "x": 736,
-          "y": 0,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "editionSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 0,
-        "gridAlpha": 0.1,
-        "snap": true,
-        "zoomFactor": 0.4600000000000003,
-        "windowMask": false
-      }
+      "instances": [],
+      "editionSettings": {}
     }
   ],
   "externalSourceFiles": []
