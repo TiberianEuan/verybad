@@ -509,6 +509,60 @@
         "name": "player_normal-1-0.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "damage_res_torso-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "damage_res_torso-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "damage_res_hands-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "damage_res_hands-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "damage_res_feet-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "damage_res_feet-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wings-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wings-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slower_time-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slower_time-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zero-g-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zero-g-1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -544,7 +598,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.45999999999999996,
+        "zoomFactor": 0.2799999999999998,
         "windowMask": false
       },
       "objectsGroups": [
@@ -959,7 +1013,7 @@
           "angle": 0,
           "customSize": true,
           "height": 23,
-          "layer": "",
+          "layer": "HUD",
           "name": "Health",
           "persistentUuid": "3be9df32-4964-4276-a7c5-ae612bb680a7",
           "width": 776,
@@ -983,6 +1037,11 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "extraBorder": 10000,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
             {
               "name": "Health",
               "type": "Health::Health",
@@ -1475,6 +1534,11 @@
           "effects": [],
           "behaviors": [
             {
+              "extraBorder": 10000,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
+            {
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
@@ -1913,7 +1977,13 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "extraBorder": 10000,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            }
+          ],
           "animations": [
             {
               "name": "hammertime",
@@ -2066,6 +2136,11 @@
           ],
           "effects": [],
           "behaviors": [
+            {
+              "extraBorder": 10000,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
             {
               "name": "Health",
               "type": "Health::Health",
@@ -2535,7 +2610,7 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 0,
+              "extraBorder": 10000,
               "name": "DestroyOutside",
               "type": "DestroyOutsideBehavior::DestroyOutside"
             },
@@ -2660,6 +2735,298 @@
             "b": 0,
             "g": 0,
             "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "upgrade",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "nothing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fatbaldbastard-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "damage_res_torso",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAuJJREFUeF7tm+txAyEMhG3XkYpSUUpIRakoddgZPENyVvRYCcGBffl7HKBPq+Xhy/n04n/nF4//dAA4FLAIgdvb5Uanev6+Niu4uYNR/CIA6DscsO4AIhOnULk+ShtNAei4UwKQAvaUwBQAPJlDg95CmF4BvQFIivCMm1ICktmgE4lknzPfqgh03LuPtLp4ZPJUupE+lgbQCl16v4DVYHZZBrOylwHFAlDH2IJoKoGZgq/7AmROIQBIxxlZHNGHG8D0wb9f/7h9XUyGzw2ghO+AAHnAUgrIBjB98CXgbQlkAhgafA2Ck295psmaAqguoLxTfUAtgZcGkBK8x51nU0A6AKs2NZlHSgCQv3oY6gLAgmCu4EIDzgNaAHQLfhIAD5cqHNNmAJIrLwtAkpi0/moAgCXKXQnOEvArAAloGxjaHtiyQjAC+4DfozFUAmhAVeJo+wOAfXIzFdDoN/92gqwBohk1Z0saSNte2k9p18lv1gAggeXAaG2ZZwcACmXKEuikgHIi3E8B0gow0G9yAHyS9HyATjg1AE8WKIBt/BqMZQFoAdPkHwCUchipAGEs2QO0EshQQOR+r7BM9BvxTvC+DO4BAPGdRL9ZA0CG2pg7CPWXIVMBnBSlUpdMED0DPCUAj/llAGDG21cBaPY9SittHWqzAZQOM4yQm9RTAECy48hIN9jCJWy7AlYBoGyAxDvBh+NwSxmg8h9cbvRDKf04HAGQvf9HVwIQuA+Alh1uYp663+4drF2gBcExbh4A8Nh/b2Zdf08NwKpRC4QVfH0/Um71XVD+pblfATMDcPoN/KVo2sWodeylzyUVJPlNG4CIErIAWGW2fQ5+FyDuA+oD8Sdyy7BqB1btS199oP1zUIwxYQWYELQlzArcymYnANJ/l5gfSjZ/LGEFzD2PQHBK3ywBOq/hILwQgH0/x9pUwK4gUAjB4O/7gohCh6tB2iwFTI/GGwJQOtkNApgx9N9qfwBo8hVb92l2xQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAdxJREFUeF7tmOFNxDAMhS/HDkhIMAESsACz8JeR+MssLABITAASEjtwRTkaVFXtxXbzjHp+9/eSpv78nu00bYL/UvD4NwRABQQnQAsEFwCLIC1ACwQnQAsEFwC7AC3gZYHufNtpzkofO5fkQA/RBj0HCAkDBqBV8AUKCsL/AHjdTSf7ajvrklUBqGbfACCTQUCAKCA0gGrwOZVGBSBU0FwBIgBTEA74f1gYWttgMQBxwJohQLF2KRACUMCeXapSwfv34SMvTsSvtDT7+5oiPk25sOs61ehbe3xKCfKukIfmYAiACqAFYteAlnUAVQChXYAA+r62tBsgsw9XQOntVgjo4N0AWOzgEbwrAKkavAL/+9RWG0Fb/v/4cCZqjXf3n7AJdRwP/KDnp9N90C9v8ktOXn99+Xtpurn9gr4j9OE54yUQK4C8D6kINwAaFRRoZQ8BAGsCXAFDP0tUMM5+3rNqBRBA33ekxXBqHRXAGoAbjFyLoHQWGNtgtRbI9rcMQ0MAyOBdLkNlFJa0wDKnD1vhqkfhHFB4AMUGllslWv4uFiCAvhCGVoBFBR7yd7MAARhscHQK0KjAK3hXCxBA3wZqX4Y9s++uAIkKjh6AZR5A7oFeh5Ev3urZ4QH8ABytCVCv+eJGAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Euan MORRISON\\\\Documents\\\\GDevelop projects\\\\verybad\\\\damage_res_torso-1.png\"],\"name\":\"damage_res_torso\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "damage_res_torso-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "damage_res_hands",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAi5JREFUeF7tmuF1wyAMhO3MkYk6SGfoCJ0oE3WOuA+/OI8SJCRzkuOi/myIzX3cCRlnngb/mwfXPwWAcMDgBCICgxsgimBEICIwOAH3CCzXy1Iyn3/u7vPY5uB+4z0Ayu8ggbkCqIlPK8EJ2gNMk+oAoKElHUtZdggHUJalxHMR2ANMukhmRTAAENvcEA7gLKsFoB2vtT48AtyEW5OrbYMBoBKl56oBO0dIH9Cz+tQucCoHIAAsn9PfZ4TbhUzO27XCJgCSfAYCKg7dEegVvwr5uNdXewgAlPjTOqAmKK1k+f9tdTkAmy8M6wE+AhJBuTDpeAJCb0EMAK0urfX5SxGUruiWcen4igN6V3/tQVoCuc+rO4BUkPbGAeC1MQoHAJ4JIgLaKObj3WqA0RboXwS/C9xfQvxGBRADQFP1SwC5fg7GaQFwgsvFVwBAVH/IkdhaAzgHBABhxtMwygGG9revAQgHBACbDtCnBqS7SF3wLyPQC8CwATqHA4zzjymC3KGmgQOQPYAPAAmEg/IfAKAnQj0dYc0BDgUQ54C9dUDR/6+TBRyAlL0p9kCEckGtF1Dk/rllnRaA4pGAex/4/g5oRaEFovEucGgAFuK7i2C6AOxc0PD9H2e8riJIAtgTBadtD7oLbBcjfyMgPS88SDwkAk0IOXLqFTnhUavc57frjkB+McivRR4X9BAPdQAShJd4MwCqWBT29xRvDoDdJTLh3qLNagC137Zqw5EAfgENpXxQT/BcWQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAaVJREFUeF7tl0ESgjAMRXXFmdix9wiuPYL34yheg5VOmWGGwSpNm5/2Q9wiMf/lNeD1cvLP9eT5L80AGIbhvTeM5+P19ZXb/VWUoejmvYb3rqeEXtc4DABp8AVCDEC4VmKBmQG5obcWaVsAB6AV/J8FzRqgHT5AoDEgNfw0TfNwu67b25nz9cMAkAZHPQ1gOyBmwBJaMvGYFpoWmAAomTYtgNB43/fz213q+U5aAsp7wMSA1GCS722PQe6jUB1A6vaXhE05BtUBWAX/9UJUBYB16H+PQlMANYP/gmAGoJXw67fC3PChhngJtgJgHEdx77FlKi7SAgCt8HQGaAZfbBAbEG60tAARen0UsgBYQUCHzzoCa3ooEyyCFx2B7TbVAGEZWuUIxB4pUhC1QsMAlP7BqXF/9hKs0SziNx0AgipTTTeAaVqIXt0ABFWmmm4A07QQvboBCKpMNd0ApmkhenUDEFSZaroBTNNC9OoGIKgy1XQDmKaF6NUNQFBlqukGME0L0asbgKDKVNMNYJoWolc3AEGVqaYbwDQtRK9uAIIqU83TG/ABzRmBQV88aGwAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Euan MORRISON\\\\Documents\\\\GDevelop projects\\\\verybad\\\\damage_res_hands-1.png\"],\"name\":\"damage_res_hands\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "damage_res_hands-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "damage_res_feet",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAaFJREFUeF7tmOERgjAMhcE5nMhBnMERnMiJnEO8clcPSxOStilwef7UouR77yXBcXD+Gp3XPwAAHOCcACLg3ABogogAIuCcACLg3ACYAogAIuCcACLg3ACYAogAIuCcACLg3ACYAogAIuCcgFkEputlStmO74/Z75XqaHZDJQDSa3oAMwGQKz4oxBVUAqxU9eV1AFBDkbKsCwdQlqWK5yJQAqxGuCYRAABizLlwAGdZLQDt+VbWj9+jngLcDW/dXG4MAkAmSj91OmyOKgfUqE9NgVM5oAWA6T78PyO8LmRyDrcKmwAI5TMQrOMgjkBt8XMht09ebRcAqOJP64BcQUHJ9P2oLgcg+mKHflAeAUlBy8Kk5wkIVg0RALa2t/j5qglKFY0Zl57POMBK/Xk3kQDITgBpQZIfWJ4BgPViBAcYPhMgApKIdusBnUegXRN8JlgfEsz5ZwLL/OsAaLp+CmBZPwej8wRoB4ArOBVfAcBafQBQLUJcBFo4YAf7H8sBANB3A1T9LT7vAVtTQBoDqgme2gEBZw2AHRagYzlgJ/UDhC/CcBRQP7K6bQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAe5JREFUeF7tl+txxCAMhO1GrgH6L4UGaCQZMucJcbD1QAj5JP89zGk/7Qqzb86f3bn+LQCEA5wTiAg4N0AMwYhARMA5gYiAcwPEKRAR8ByBlNKXawe4BlDFV/e7dMAh3iWAVjwE4McixMe8ozAAOMJbTmYhnMX3HDAq/mwYMzB64jUAQDEjJoy3/Eq8FoDt9XptpZRlMJYBqMLr8xZ/tE81FnfipzngQrj6fIDEiwNAClcBgREvCqDJOWdSicYCKz4AdO4CrO8ASvePmPRsUkoZdgKl+1fHEhkCFgByHRsCVfzduUyGcBd8jeHIEa8CANl1zuD8c/+QBlA3F3GBBoCUEhsglLdhCLMBjIjHfpsPQfgEAENxCAC/N0F2Tu9eHIlAznmHZkD736wozHZALZADoYrHzoBhCFNa32yqCWBoHswCQQVwdJ/jAJNuoABoxX8MAOwcOIsfBfC4OMwAcESCdULMmgk9R+Scuw2nHINQveYgdAr+p1cSgMlInCBMB2A2Eu/C1ABYdYMqAGsQunGXngFXg9LCgFwKYLUbLhut5YDVw9EMgBUgbpus7QDtyxSoD1wAff4J/D5rQKK0oRYJiIS2mAEBpQ21CKpe8HcJECRNpMWCQjFbUWGwtLBewlT/lDUB4CmdmlWnewd8A4y5lME2hicBAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Euan MORRISON\\\\Documents\\\\GDevelop projects\\\\verybad\\\\damage_res_feet-1.png\"],\"name\":\"damage_res_feet\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "damage_res_feet-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "wings",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "wings-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "slower_time",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAArhJREFUeF7tm1tOxDAMRek+kPhnDV0BC2YFXQP/SOxjUEcEpR47thM/2k75pJm29/jaeTSZXoL+bsv7TfOoaf6aNO1727o9RCuYE+AFxBSAtWgKiiUMEwAS4d+vn1yQN9fffj7Y9hYghgC0hGsFc2pbQEZAdAOgxI8Kn+d5w2JZFpEzeiGoAXgJLyo5AKUd5QgtCBUATPxoxOvwQvHrNegAmCoYCA0EMQBv8auwHgDr70YgiABA8ZZRH3VA/XsIQuIEFkCUeMwBnP2xnkMLoQkgU7wk/6muUwOBBBApfiT/RyGIAHjlvGX+c+lA1QMUwNGjT40VMAgPAKLFe9hf0zM0AURY3xsAHCdAF2wAnC36klQgAZwl+hiE2gX/ADKiH2F/zgUogKjoW43+uLWElgtSAfROfqSCWzPHkgZ3ALX9M6M/MvyVQqmHySuEC0CGAzDrR0QfGxOEOoASXtu3ZwostT8KICr/JeKLkFAIEQA04iMgbArhBaD6aOnRBfZE39sFoQ64AIAvPZqK7VUMLwdUH14n7yL4tCkwItx7VOiWAqOio0aE5gAshXtH/2E4bFEDLAF4VX5qpdhkMsQBgKKiF0JI8VbrAZmCNOOK9Omw9mU92u9qRchDIHdPFEDGqhD3oh7Xofj1Gamrwh4iW/cUA1hv4jE1jhZMVf975P/2Iqd/GouCgkV/kwKwDpzJBa0tM7v4PO7tAir6Dw44owu4DVO72CLj5QBOPOqA8jIWkyQvYdL7tqxf7iHaJXbEgiiJftMBR64HUvEsgCNC0IgXATgSBK14MQAMwp7qgvt2eaxnKP/LnjOMiFc5oAUhww0pR2bq/tf77BDV11sJZ8cBksHGUx+bk7ihbqOtFYc4OAldIjlBKnEW10ZyFoi7h0kKtB5iDcNSdP3e7KEpKUmunRaIl2D4nr/wkg1vQML9hwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAK9JREFUeF7t28ERgCAMRNGkDTuyD8uiDzqiDRxu9LDv5Nkx5v+QpauqnjH3+t5OfEa+9P2xWwUEl/+pBBWQ2Pj0gOu3RwEUQAEmGKvBPGDMjQIogAIogALJAxEKoAAKoAAKoEDoUsQ0aBq0F3AeYDOUjEAUQAEUQAEUQAEpsdyIHA/gATyAB/AAHsADeID7AqmXJZggE2SCTJAJMkEmyASZIBMMjspJikqKBpf/6X0/lXXPkvtzipQAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Euan MORRISON\\\\Documents\\\\GDevelop projects\\\\verybad\\\\slower_time-1.png\"],\"name\":\"slower_time\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slower_time-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "zero-g",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "zero-g-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "upgrade_description",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Upgrade Text Here Blah Blah Blah",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         }
       ],
@@ -5154,6 +5521,317 @@
                 "Health",
                 "=",
                 "\"Health: \" + ToString(player.Health::Health())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Animation"
+              },
+              "parameters": [
+                "upgrade",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "upgrade",
+                "=",
+                "RandomInRange(1,6)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "upgrade_description.X()",
+                    "upgrade_description.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"damage_res_feet\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"Resistant Feet: Heals and improves feet. Does not grow feet back.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "upgrade_description.X()",
+                    "upgrade_description.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"damage_res_hands\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"Resistant Hands: Heals and improves hands. Does not grow hands back.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "upgrade_description.X()",
+                    "upgrade_description.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"damage_res_torso\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"Resistant Torso: Heals and improves the player.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "upgrade_description.X()",
+                    "upgrade_description.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"slower_time\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"Slow Time: Lowers the game speed on this life only.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "upgrade_description.X()",
+                    "upgrade_description.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"wings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"Wings: Soar your way to safety.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "upgrade_description.X()",
+                    "upgrade_description.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"zero-g\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "upgrade_description",
+                    "=",
+                    "\"Zero G: Ground control to major tom amirite? (permanent zero-gravity)\""
+                  ]
+                }
               ]
             }
           ]
@@ -16445,7 +17123,7 @@
         "gridColor": 0,
         "gridAlpha": 1,
         "snap": true,
-        "zoomFactor": 0.07000000000000006,
+        "zoomFactor": 0.9700000000000006,
         "windowMask": false
       }
     },
@@ -16539,7 +17217,191 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3700000000000035,
+        "zoomFactor": 0.35968354479074793,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "game",
+      "name": "room10",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "f73ff05b-d98f-485c-9d3c-9983c3570494",
+          "width": 960,
+          "x": 0,
+          "y": 192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
+          "width": 64,
+          "x": 0.000030517578125,
+          "y": -94,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "866e093b-2375-46b4-a324-3a0b487011d6",
+          "width": 32,
+          "x": 512,
+          "y": 224,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "bb84a39f-b26f-490a-9594-b495bb7c366e",
+          "width": 63.999969482421875,
+          "x": 896,
+          "y": -94,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "b547bf44-b918-4660-b534-b991b9af0126",
+          "width": 0,
+          "x": 896,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "name": "upgrade",
+          "persistentUuid": "0a2f277f-ecea-4a8e-abf7-0ffcafa95e61",
+          "width": 192,
+          "x": 144,
+          "y": -192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "name": "upgrade",
+          "persistentUuid": "2fdf6e83-bd18-41e9-81a6-0452ee49d1c3",
+          "width": 192,
+          "x": 624,
+          "y": -192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "name": "upgrade",
+          "persistentUuid": "45d3662f-5629-46ad-ad0d-dae11c2f2069",
+          "width": 192,
+          "x": 384,
+          "y": -192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 14.47868824005127,
+          "layer": "",
+          "name": "upgrade_description",
+          "persistentUuid": "714423ee-8e7d-4e46-bf18-62a8a70cc9a2",
+          "width": 192,
+          "x": 144,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 14.47868824005127,
+          "layer": "",
+          "name": "upgrade_description",
+          "persistentUuid": "b7fbd9ef-39f3-48df-a5b1-40f387f29359",
+          "width": 192,
+          "x": 384,
+          "y": 0,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 14.47868824005127,
+          "layer": "",
+          "name": "upgrade_description",
+          "persistentUuid": "10dfa6a2-5790-43e3-b8b3-2b2a2c19a452",
+          "width": 192,
+          "x": 624,
+          "y": 0,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 0,
+        "gridAlpha": 0.1,
+        "snap": true,
+        "zoomFactor": 0.7000000000000044,
         "windowMask": false
       }
     }
