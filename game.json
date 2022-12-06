@@ -563,6 +563,1447 @@
         "name": "zero-g-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "firesuit-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "firesuit-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "firesuit_hunch-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "firesuit_hunch-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "firesuit_hunch-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "firesuit_hunch-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "firesuit_hunch-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "firesuit_hunch-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "firesuit_hunch-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "firesuit_hunch-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/26bd110e68a5907bd96962fb260e2d888892462c508958de04adb01156f3e3ed_Bright Fire_1.png",
+          "name": "Bright Fire_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/bd5387a430c213da486434c5d2efdbbc49d8901112d9aa26e9ad5db258491893_Bright Fire_10.png",
+          "name": "Bright Fire_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ca1fa6378ee804917ccd4033d3e6f573fac0c4708df08fd93c2ac4377755c78e_Bright Fire_11.png",
+          "name": "Bright Fire_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a08d4af7e1cfbf5049c7fe871443d91f6351d540eede9aeff290cec9e95d5033_Bright Fire_12.png",
+          "name": "Bright Fire_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7098fa11bee47e08ca76a6003d006c86da069d195213a652d669ba649dfac578_Bright Fire_13.png",
+          "name": "Bright Fire_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/79fe8fed16d7dbae88fb3255d9e82669878a29bafd95660a770b951766018400_Bright Fire_14.png",
+          "name": "Bright Fire_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a48967ed55f517fac9c1fd384ce9fa2215bf6795b4620fd0b82a45a68b79f4ab_Bright Fire_15.png",
+          "name": "Bright Fire_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7cdef376f3a430a006bf1f6121a8239e8eddf76752c6160364a84d944643e1af_Bright Fire_16.png",
+          "name": "Bright Fire_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cc10fd7dff6b850e7517da9ec748445de081e7dfbd56ae2c30161a44c2fda4d8_Bright Fire_17.png",
+          "name": "Bright Fire_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2bb113856e10f45da7a917d24d6b6e8d81bc20f05db2cdda7402e7a4bb73219c_Bright Fire_18.png",
+          "name": "Bright Fire_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ab2e8c7d61cc63af464a17136303fd1922939a5c5a9947ccee5942f4703ca3f7_Bright Fire_19.png",
+          "name": "Bright Fire_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2f7a54b6e2b3f5a91e324e5a75d34a08a9986b9de7da815218771fa58416edd4_Bright Fire_2.png",
+          "name": "Bright Fire_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c5d849418e3bb34f96aef6d5495883921eb1cf526e83fee176c61c3c0d66cb53_Bright Fire_20.png",
+          "name": "Bright Fire_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f7bbef0941e07fefd38531c84397c0d0928db5b16f6532a02b916c675506d2a6_Bright Fire_21.png",
+          "name": "Bright Fire_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0f15a46fe2f0f12ba647379fadc52a8262a23875c5b50ae271abc3868a49ff6c_Bright Fire_22.png",
+          "name": "Bright Fire_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1b1e524506ef01ee29db7883462fc30e8c8b837347319c9ee2e5c26e107be63c_Bright Fire_23.png",
+          "name": "Bright Fire_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b7656d68cb955eaf50ccf33a13b098145cbd99388ea669a30152cf69e6cf44b4_Bright Fire_24.png",
+          "name": "Bright Fire_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1df9a21291a814f3735d1fbeac3509914eeb1cda73c9a9170360852d04e7b9a2_Bright Fire_25.png",
+          "name": "Bright Fire_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c85e7546b2d63c04f9252298886e62ddeb8235545ffb1c2a66d408f74af5be13_Bright Fire_26.png",
+          "name": "Bright Fire_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4e9768c55cf76cbf3a49e2580ef26045ddff4b779623b500e28a369cc74c772d_Bright Fire_27.png",
+          "name": "Bright Fire_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9425d6ee02d5fd2b8b790a9f41521fa0e4c4faffad6dbaa30bf66e1306efecff_Bright Fire_28.png",
+          "name": "Bright Fire_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/110a2b353a864593ec553290dee61b16fcd50761670b0508995903404e886161_Bright Fire_29.png",
+          "name": "Bright Fire_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/80c08499bfee351bf4dbd09e7dff7f6b6488e6cc5d8ee6636222a0034f099b27_Bright Fire_3.png",
+          "name": "Bright Fire_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1e769d456d9c70c78e751c5225a518edbc87815dfb899b135df14659922b80d0_Bright Fire_30.png",
+          "name": "Bright Fire_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a562c77cadcda28b8d2f3f98668f3757f4f118048e7d044fd9f93118fb354eec_Bright Fire_31.png",
+          "name": "Bright Fire_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ccd79b0351f54df3fbaa6dbdd3040d44ed138ba37030f917811ad5f0a55500df_Bright Fire_32.png",
+          "name": "Bright Fire_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0af5e42e3e4983844de4fc89c84d48e195eeaea8f088328703f5ec4978714db5_Bright Fire_33.png",
+          "name": "Bright Fire_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d77a66218e8e8244f58f8dfd7dc9336dcc429ba4d17291ef7d2879f4f8e4ab36_Bright Fire_34.png",
+          "name": "Bright Fire_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/610e280243a3594a1bcb94131e979913f520d0a1dc2293aa0e1397bb9a2b9c67_Bright Fire_35.png",
+          "name": "Bright Fire_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7562ab6ea8f68e47682b7b2a0bc7189ce028a1be027e2bda2d3443072690b040_Bright Fire_36.png",
+          "name": "Bright Fire_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b301ca6f05e43af252bff6e3a468a5dd6dc0b53d94787c93307daba182dca9a7_Bright Fire_37.png",
+          "name": "Bright Fire_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c574adf46f689c38d6ce3c28a9cbc14c4a69547de57643b7efb78a5564850abe_Bright Fire_38.png",
+          "name": "Bright Fire_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1299c8eb4c4ff95c7f029136f9e315bd6aaf16dc84f4b5e295ec251a827242cb_Bright Fire_39.png",
+          "name": "Bright Fire_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f46c62a4e0db48df9823c5b4f48255c73cb3e93045a3e29bb7c8fa8e3f2274dc_Bright Fire_4.png",
+          "name": "Bright Fire_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c64af2df611432682a87bb95878677b5a60e7ed73d52880822a3d7e34fed4c42_Bright Fire_40.png",
+          "name": "Bright Fire_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1e282899472cafed826d9041a1c5f7586f3917e162a1e91738e40bd272ae90ef_Bright Fire_41.png",
+          "name": "Bright Fire_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4872eb2b2a2402a8910903a7977726f1992108d9a249b62652298cdaba3c42b3_Bright Fire_42.png",
+          "name": "Bright Fire_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5483f2a872cb5a8f4845292f8fb981e4a9ac96b16526d74c550a081939907491_Bright Fire_43.png",
+          "name": "Bright Fire_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d8ee67571f8d168498e1322d2bbf115edfe934fbd6421f7cc4dc9be0a4793e02_Bright Fire_44.png",
+          "name": "Bright Fire_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0fbb66877d0d7b16182238fc04a3d1af7b0bd36cece98f9110a7180952a3f500_Bright Fire_45.png",
+          "name": "Bright Fire_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0f0f0dbf39ee55d2b7d2153393496a401b05c29f0a17b3ba93dc67d71504a196_Bright Fire_46.png",
+          "name": "Bright Fire_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1e103b31fee34f14c46de11b4c47f6e1ae6d80d0f3276aa2d63f813eb4f656c7_Bright Fire_47.png",
+          "name": "Bright Fire_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a0000a8ffa152631923b89dca6a5c934d51f4470ddf663653fe3f6c31f8d65bb_Bright Fire_48.png",
+          "name": "Bright Fire_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cb1c0cdafca549dc7bfb343ea08b50fbb8475f49b84289c1fa9186a0ed15ac64_Bright Fire_49.png",
+          "name": "Bright Fire_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/99f1c5e8229acfb03e409632f09182f562171da484dfcc65b5de2e5609fc0b17_Bright Fire_5.png",
+          "name": "Bright Fire_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d2112ee4a0ffb19c0320d39465b4c99b3a973d0894de9e3e3938d84a9a95daaa_Bright Fire_50.png",
+          "name": "Bright Fire_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/fc7da1b7e3a111db00a5d358d57f8a86f04b1ae538df5f3fdbd3bc5dcd8b32da_Bright Fire_51.png",
+          "name": "Bright Fire_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/aef9aa2197a244a314adaa1201c570e3f7cf1c1e11b9d766b8d395cc57b508fa_Bright Fire_52.png",
+          "name": "Bright Fire_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/93adaa7ba3d5dcdd1317e6abb78d79972e1ba346e64af8b434c2857276665e2f_Bright Fire_53.png",
+          "name": "Bright Fire_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/80e922493674a6b78b42374b866b457e7621f6a059e7bf916cb6ccadde2a3d9d_Bright Fire_54.png",
+          "name": "Bright Fire_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d1d32bae5bba71538033e9179812900e42a90c1b2f5e1e8f84c22ab505ee7e0f_Bright Fire_55.png",
+          "name": "Bright Fire_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/167c0b7e87bef6f7966e7e352cbe824b3a0f371f43eca2bd243a71af650fd0cf_Bright Fire_56.png",
+          "name": "Bright Fire_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9d773c2c12103e92d4fde381b080a1e6d0b5de5da2e22ccd6ea9f2eed3d5b719_Bright Fire_57.png",
+          "name": "Bright Fire_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e4862334e21c6272220002c6a477ea626254731b9b2ab1bdd8a437c286d63b25_Bright Fire_58.png",
+          "name": "Bright Fire_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/574f0658298a09209a650c86462d06d305e7f861ef39bf16fffa3630bae2d20c_Bright Fire_59.png",
+          "name": "Bright Fire_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a04cafe30df8aaa83e195f82fd1a8c30e4bf18936c66d229ce93366281273086_Bright Fire_6.png",
+          "name": "Bright Fire_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7f9e0915f8bca8ee9cebcd8c9d4cb9f7e700534a6a7ad004d08ccdfe2aeb66d0_Bright Fire_60.png",
+          "name": "Bright Fire_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/50fa37f81217874a087a9644cb4f79b62663fd496910546bfe85d8a66e6a5a86_Bright Fire_61.png",
+          "name": "Bright Fire_61.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/38cc3341fe3840a315860b551ac3da1a9cdffe68c50b568012acb0aee34ae5f5_Bright Fire_7.png",
+          "name": "Bright Fire_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9f85b1a7882046678d37d6883358d3ff940228f693505d4805a36a11e1b3b322_Bright Fire_8.png",
+          "name": "Bright Fire_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bright Fire_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bright Fire_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b0b20e197c371e49263704ff31ee2579b528fd7dede56cc1baa38a5cd1551741_Bright Fire_9.png",
+          "name": "Bright Fire_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-19.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-22.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-23.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-24.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-25.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-26.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-27.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-28.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-29.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-30.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-31.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-32.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-33.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-34.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-35.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-36.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-37.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-38.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-39.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-40.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-41.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-42.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-43.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-44.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-45.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-46.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-47.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-48.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-49.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-50.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-51.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-52.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-53.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-54.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-55.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-57.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-58.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-59.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-60.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrightFire_1-61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrightFire_1-61.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wings-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wings-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "astronaut-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "astronaut-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "astronaut_hunch-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "astronaut_hunch-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "astronaut_hunch-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "astronaut_hunch-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "astronaut_hunch-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "astronaut_hunch-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "astronaut_hunch-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "astronaut_hunch-4.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -598,7 +2039,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.2799999999999998,
+        "zoomFactor": 1.4400000000000006,
         "windowMask": false
       },
       "objectsGroups": [
@@ -656,6 +2097,9 @@
             },
             {
               "name": "hand"
+            },
+            {
+              "name": "player"
             }
           ]
         },
@@ -720,7 +2164,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 126,
+          "height": 120,
           "layer": "",
           "name": "wall",
           "persistentUuid": "79868b64-628f-443e-adc5-7d807cbb63b4",
@@ -770,8 +2214,8 @@
           "name": "player",
           "persistentUuid": "94fb750a-9959-4bcb-abbc-90602b97f725",
           "width": 64,
-          "x": 192,
-          "y": 224,
+          "x": 144,
+          "y": 264,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -800,8 +2244,8 @@
           "name": "hand",
           "persistentUuid": "a1a6da2e-af8a-48d0-9299-0a29bf945fa7",
           "width": 32,
-          "x": 224,
-          "y": 320,
+          "x": 176,
+          "y": 360,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -822,8 +2266,8 @@
           "name": "hand",
           "persistentUuid": "79594dd6-29a2-4d84-b5f1-ed04a0f2882d",
           "width": 32,
-          "x": 192,
-          "y": 320,
+          "x": 144,
+          "y": 360,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -847,13 +2291,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 200,
           "layer": "",
           "name": "door",
           "persistentUuid": "2e4b4002-dc73-40de-9f25-50df3b54be6d",
           "width": 32,
           "x": 752,
-          "y": 288,
+          "y": 280,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -867,8 +2311,8 @@
           "name": "bash_tip",
           "persistentUuid": "70b49b17-d9ce-4a7c-8662-17b2bb09a82f",
           "width": 0,
-          "x": 399,
-          "y": 242,
+          "x": 471,
+          "y": 130,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -928,7 +2372,7 @@
           "persistentUuid": "67c4fd70-485e-4ed5-8de8-d27c55ff490a",
           "width": 0,
           "x": 128,
-          "y": 123,
+          "y": 128,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -987,8 +2431,8 @@
           "name": "foot",
           "persistentUuid": "56249ff9-7de3-480d-9483-0436d0e83811",
           "width": 16,
-          "x": 216,
-          "y": 416,
+          "x": 168,
+          "y": 456,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1002,8 +2446,8 @@
           "name": "foot",
           "persistentUuid": "a6ec859d-dd90-4dc8-b6bd-db3c6e54e1bd",
           "width": 16,
-          "x": 216,
-          "y": 416,
+          "x": 168,
+          "y": 456,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1038,9 +2482,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 10000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 10000
             },
             {
               "name": "Health",
@@ -1123,7 +2567,7 @@
               "Health": 25,
               "CurrentHealth": 0,
               "MaxHealth": 25,
-              "DamageCooldown": 0.1,
+              "DamageCooldown": 0.5,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0.5,
               "HealthRegenDelay": 3,
@@ -1339,6 +2783,224 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "firesuit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "firesuit-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "firesuit_hunch",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "firesuit_hunch-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "firesuit_hunch-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "firesuit_hunch-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "firesuit_hunch-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "astronaut",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "astronaut-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "astronaut_hunch",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "astronaut_hunch-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "astronaut_hunch-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "astronaut_hunch-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "astronaut_hunch-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1446,7 +3108,7 @@
               "Health": 30,
               "CurrentHealth": 0,
               "MaxHealth": 30,
-              "DamageCooldown": 0,
+              "DamageCooldown": 1,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
               "HealthRegenDelay": 0,
@@ -1534,9 +3196,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 10000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 10000
             },
             {
               "name": "Health",
@@ -1761,7 +3423,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "You can smash through doors\nby throwing your hand at it really fast!",
+          "string": "You can smash through doors\nby throwing yourself at them!",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -1979,9 +3641,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 10000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 10000
             }
           ],
           "animations": [
@@ -2137,9 +3799,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 10000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 10000
             },
             {
               "name": "Health",
@@ -2377,7 +4039,7 @@
               "Health": 100,
               "CurrentHealth": 0,
               "MaxHealth": 100,
-              "DamageCooldown": 0,
+              "DamageCooldown": 1,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
               "HealthRegenDelay": 0,
@@ -2610,9 +4272,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 10000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 10000
             },
             {
               "name": "Physics2",
@@ -3028,6 +4690,1148 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "6f92bd41616ef2908e65d21b8dd9762716569539f0959a52dd34beed7d53f3a0",
+          "name": "BrightFire",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 5,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 1,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 1,
+              "HealthRegenDelay": 2,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "BrightFire_1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.01640000008046627,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-32.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-33.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-34.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-35.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-36.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-37.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-38.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-39.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-40.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-41.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-42.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-43.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-44.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-45.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-46.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-47.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-48.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-49.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-50.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-51.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-52.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-53.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-54.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-55.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-56.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-57.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-58.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-59.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-60.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\BrightFire_1-61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 64
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "wings",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "wings",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "wings-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3337,46 +6141,136 @@
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "Physics2::Collision"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "foot",
-                        "Physics2",
-                        "wall",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "Physics2::Collision"
+                          },
+                          "parameters": [
+                            "foot",
+                            "Physics2",
+                            "wall",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::Collision"
+                          },
+                          "parameters": [
+                            "foot",
+                            "Physics2",
+                            "doors",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::Collision"
+                          },
+                          "parameters": [
+                            "foot",
+                            "Physics2",
+                            "elevator",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::Collision"
+                          },
+                          "parameters": [
+                            "foot",
+                            "Physics2",
+                            "chicken",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
                       "type": {
-                        "value": "Physics2::Collision"
+                        "value": "SceneInstancesCount"
                       },
                       "parameters": [
-                        "foot",
-                        "Physics2",
-                        "doors",
-                        ""
+                        "",
+                        "wings",
+                        "!=",
+                        "0"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Physics2::Collision"
+                        "value": "BuiltinCommonInstructions::And"
                       },
-                      "parameters": [
-                        "foot",
-                        "Physics2",
-                        "elevator",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Physics2::Collision"
-                      },
-                      "parameters": [
-                        "foot",
-                        "Physics2",
-                        "chicken",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "foot",
+                                "Physics2",
+                                "wall",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "foot",
+                                "Physics2",
+                                "doors",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "foot",
+                                "Physics2",
+                                "elevator",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "foot",
+                                "Physics2",
+                                "chicken",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "wings",
+                            "!=",
+                            "0"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3412,17 +6306,6 @@
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "",
-                        "foot",
-                        "!=",
-                        "0"
-                      ]
                     }
                   ],
                   "actions": [
@@ -3435,6 +6318,55 @@
                         "Physics2",
                         "-",
                         "200"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "wings",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "wings",
+                            "-",
+                            "30"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "10",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetAngle"
+                              },
+                              "parameters": [
+                                "wings",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3460,17 +6392,6 @@
                       "parameters": [
                         "player",
                         "\"player_hunch\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "",
-                        "foot",
-                        "!=",
-                        "0"
                       ]
                     }
                   ],
@@ -3796,7 +6717,7 @@
               },
               "parameters": [
                 "",
-                "\"room\" + ToString(RandomInRange(1,9))",
+                "\"room\" + ToString(RandomInRange(1,10))",
                 "spawnpoint.X()",
                 "spawnpoint.Y()"
               ]
@@ -4215,6 +7136,29 @@
                 "no",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BrightFire",
+                "deletable.CenterX()+RandomInRange(-20,20)",
+                "deletable.CenterY()+RandomInRange(-20,20)",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "BrightFire",
+                "Sticker",
+                "deletable",
+                ""
+              ]
             }
           ],
           "events": [
@@ -4424,6 +7368,101 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "deletable",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "BrightFire",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "BrightFire",
+                "=",
+                "((deletable.Width()+deletable.Height())/2)/(100-BrightFire.Health::Health())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "deletable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::IsJustHealed"
+              },
+              "parameters": [
+                "BrightFire",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "deletable",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "BrightFire",
+                "=",
+                "((deletable.Width()+deletable.Height())/2)/(100-BrightFire.Health::Health())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -4592,25 +7631,34 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "AnimationName"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "player",
-                "\"player_hunch\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_hunch\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit_hunch\""
+                  ]
+                }
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "player",
-                "\"player_hunch\""
-              ]
-            },
             {
               "type": {
                 "value": "AjoutObjConcern"
@@ -4644,21 +7692,88 @@
                 "75"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_normal\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut_hunch\""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "player",
-                "\"player_hunch\""
-              ]
-            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -4670,18 +7785,29 @@
                 "",
                 ""
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "SetAnimationName"
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "player",
+                "\"firesuit_hunch\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
               },
               "parameters": [
                 "player",
                 "\"player_hunch\""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AjoutObjConcern"
@@ -4713,6 +7839,83 @@
                 "Variable(hand2)",
                 "=",
                 "75"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_normal\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut_hunch\""
+                  ]
+                }
               ]
             }
           ]
@@ -4753,15 +7956,6 @@
             },
             {
               "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "player",
-                "\"player_hunch\""
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimationEnded2"
               },
               "parameters": [
@@ -4770,15 +7964,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "player",
-                "\"player_normal\""
-              ]
-            },
             {
               "type": {
                 "value": "AjoutObjConcern"
@@ -4810,6 +7995,83 @@
                 "Variable(hand2)",
                 "=",
                 "200"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_hunch\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_normal\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit_hunch\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut_hunch\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut\""
+                  ]
+                }
               ]
             }
           ]
@@ -4857,6 +8119,83 @@
               "parameters": [
                 "player",
                 "\"player_hunch\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_normal\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"firesuit_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut_hunch\""
+                  ]
+                }
               ]
             }
           ]
@@ -4988,12 +8327,28 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "AnimationName"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "player",
-                "\"kratos\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_normal\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"player_hunch\""
+                  ]
+                }
               ]
             }
           ],
@@ -5503,11 +8858,9 @@
                 },
                 {
                   "type": {
-                    "value": "DepartScene"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": []
                 }
               ]
             }
@@ -5568,16 +8921,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "upgrade_description",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimationName"
                   },
                   "parameters": [
@@ -5611,16 +8954,6 @@
                     "upgrade_description.X()",
                     "upgrade_description.Y()",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "upgrade_description",
-                    "=",
-                    "\"\""
                   ]
                 },
                 {
@@ -5662,16 +8995,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "upgrade_description",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimationName"
                   },
                   "parameters": [
@@ -5705,16 +9028,6 @@
                     "upgrade_description.X()",
                     "upgrade_description.Y()",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "upgrade_description",
-                    "=",
-                    "\"\""
                   ]
                 },
                 {
@@ -5756,16 +9069,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "upgrade_description",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimationName"
                   },
                   "parameters": [
@@ -5803,16 +9106,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "upgrade_description",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimationName"
                   },
                   "parameters": [
@@ -5830,6 +9123,511 @@
                     "upgrade_description",
                     "=",
                     "\"Zero G: Ground control to major tom amirite? (permanent zero-gravity)\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "hand",
+                "Physics2",
+                "upgrade",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"damage_res_feet\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    ">=",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    "-",
+                    "1000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "foot",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::SetMaxHealth"
+                      },
+                      "parameters": [
+                        "foot",
+                        "Health",
+                        "foot.Health::MaxHealth()*5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetCurrentHealth"
+                      },
+                      "parameters": [
+                        "foot",
+                        "Health",
+                        "foot.Health::MaxHealth()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "chicken.wav",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"damage_res_hands\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    ">=",
+                    "800"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    "-",
+                    "800"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "hand",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::SetMaxHealth"
+                      },
+                      "parameters": [
+                        "hand",
+                        "Health",
+                        "hand.Health::MaxHealth()*5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetCurrentHealth"
+                      },
+                      "parameters": [
+                        "hand",
+                        "Health",
+                        "hand.Health::MaxHealth()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "chicken.wav",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "hand",
+                        "\"24;24;24\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"damage_res_torso\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    ">=",
+                    "1200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    "-",
+                    "1200"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "player",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::SetMaxHealth"
+                      },
+                      "parameters": [
+                        "player",
+                        "Health",
+                        "player.Health::MaxHealth()*15",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetCurrentHealth"
+                      },
+                      "parameters": [
+                        "player",
+                        "Health",
+                        "player.Health::MaxHealth()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "chicken.wav",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"firesuit\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"slower_time\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    ">=",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    "-",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "TimeScale()-0.1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "<=",
+                        "0.1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextToSpeech::Speak"
+                      },
+                      "parameters": [
+                        "",
+                        "\"No.\"",
+                        "\"James\"",
+                        "100",
+                        "100",
+                        "100",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"wings\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    ">=",
+                    "3000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    "-",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "wings",
+                    "player.CenterX()",
+                    "player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "wings",
+                    "Sticker",
+                    "player",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "upgrade",
+                    "\"zero-g\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    ">=",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"astronaut\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "weapons",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::GravityScale"
+                      },
+                      "parameters": [
+                        "weapons",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -5896,6 +9694,10 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker"
         },
         {
           "name": "Tween",
@@ -17354,7 +21156,7 @@
           "persistentUuid": "714423ee-8e7d-4e46-bf18-62a8a70cc9a2",
           "width": 192,
           "x": 144,
-          "y": 0,
+          "y": -3.4786882400512695,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -17369,7 +21171,7 @@
           "persistentUuid": "b7fbd9ef-39f3-48df-a5b1-40f387f29359",
           "width": 192,
           "x": 384,
-          "y": 0,
+          "y": -5,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -17384,7 +21186,7 @@
           "persistentUuid": "10dfa6a2-5790-43e3-b8b3-2b2a2c19a452",
           "width": 192,
           "x": 624,
-          "y": 0,
+          "y": -5,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -17401,7 +21203,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.7000000000000044,
+        "zoomFactor": 1.280000000000005,
         "windowMask": false
       }
     }
