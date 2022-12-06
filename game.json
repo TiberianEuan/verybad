@@ -434,6 +434,81 @@
         "name": "normal-1-0.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "step_default_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "step_default_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EXIT-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EXIT-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chicken-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chicken-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "chicken.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Powerup 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.14,\\\"sustainPunch\\\":0,\\\"decay\\\":0.25,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1200,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":500,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"breaker\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":370,\\\"vibratoFrequency\\\":448,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":35,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"chicken\"}}",
+        "name": "chicken.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "money-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "money-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "MONEY.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 3\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":40,\\\"decay\\\":0.4,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":25,\\\"frequencyJump1Amount\\\":40,\\\"frequencyJump2Onset\\\":30,\\\"frequencyJump2Amount\\\":55,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":90,\\\"squareDutySweep\\\":60,\\\"flangerOffset\\\":5,\\\"flangerOffsetSweep\\\":-1,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"MONEY\"}}",
+        "name": "MONEY.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_normal-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_normal-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_normal-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_normal-1-0.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -469,7 +544,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.5200000000000001,
+        "zoomFactor": 0.45999999999999996,
         "windowMask": false
       },
       "objectsGroups": [
@@ -481,6 +556,9 @@
             },
             {
               "name": "mouse"
+            },
+            {
+              "name": "chicken"
             }
           ]
         },
@@ -494,9 +572,6 @@
               "name": "door"
             },
             {
-              "name": "spawnpoint"
-            },
-            {
               "name": "player"
             },
             {
@@ -504,6 +579,18 @@
             },
             {
               "name": "foot"
+            },
+            {
+              "name": "chicken"
+            },
+            {
+              "name": "doorwall"
+            },
+            {
+              "name": "elevator"
+            },
+            {
+              "name": "fad_bald_bastard"
             }
           ]
         },
@@ -531,6 +618,17 @@
               "name": "foot"
             }
           ]
+        },
+        {
+          "name": "doors",
+          "objects": [
+            {
+              "name": "door"
+            },
+            {
+              "name": "doorwall"
+            }
+          ]
         }
       ],
       "variables": [
@@ -556,6 +654,12 @@
               "value": 0
             }
           ]
+        },
+        {
+          "folded": true,
+          "name": "grip",
+          "type": "string",
+          "value": ""
         }
       ],
       "instances": [
@@ -621,21 +725,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "HUD",
-          "name": "healthbar",
-          "persistentUuid": "b956ace9-27d4-43a3-be54-31ec996c8136",
-          "width": 224,
-          "x": 10,
-          "y": 9,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -689,7 +778,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 160,
+          "height": 152,
           "layer": "",
           "name": "wall",
           "persistentUuid": "4eabde96-5021-4ce8-8044-a86b0e9d1c55",
@@ -709,7 +798,7 @@
           "name": "door",
           "persistentUuid": "2e4b4002-dc73-40de-9f25-50df3b54be6d",
           "width": 32,
-          "x": 704,
+          "x": 752,
           "y": 288,
           "zOrder": 7,
           "numberProperties": [],
@@ -739,8 +828,8 @@
           "name": "money",
           "persistentUuid": "db50f175-ed07-4c7a-a394-692ab6b1b80a",
           "width": 214,
-          "x": 10,
-          "y": 41,
+          "x": 8,
+          "y": 33,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -754,8 +843,8 @@
           "name": "spawnpoint",
           "persistentUuid": "18166fce-e607-4f1c-9ed0-46a4fe3b455a",
           "width": 0,
-          "x": 736,
-          "y": 288,
+          "x": 735,
+          "y": 280,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -837,21 +926,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "height": 640,
-          "layer": "",
-          "name": "deathlevel",
-          "persistentUuid": "8ac91a9d-b20a-4cf7-802c-3a872eb9cafe",
-          "width": 4832,
-          "x": -800,
-          "y": 64640,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "height": 32,
@@ -884,14 +958,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 800,
+          "height": 23,
           "layer": "",
-          "name": "deathlevel",
-          "persistentUuid": "8fdb34ce-987b-44a7-b8e9-3b5dd022b82b",
-          "width": 18344,
-          "x": -8656,
-          "y": 14960,
-          "zOrder": 16,
+          "name": "Health",
+          "persistentUuid": "3be9df32-4964-4276-a7c5-ae612bb680a7",
+          "width": 776,
+          "x": 8,
+          "y": 8,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1025,7 +1099,24 @@
               "shapeOffsetX": 0,
               "shapeOffsetY": 0,
               "polygonOrigin": "Center",
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": -7,
+                  "y": -7
+                },
+                {
+                  "x": 9,
+                  "y": -7
+                },
+                {
+                  "x": 9,
+                  "y": 25
+                },
+                {
+                  "x": -8,
+                  "y": 25
+                }
+              ],
               "density": 1,
               "friction": 0.3,
               "restitution": 0.1,
@@ -1051,7 +1142,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player-1-0.png",
+                      "image": "player_normal-1-0.png",
                       "points": [
                         {
                           "name": "arms",
@@ -1486,6 +1577,116 @@
         },
         {
           "assetStoreId": "",
+          "name": "doorwall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [
+                {
+                  "x": -8,
+                  "y": 31
+                },
+                {
+                  "x": 8,
+                  "y": 31
+                },
+                {
+                  "x": 8,
+                  "y": -32
+                },
+                {
+                  "x": -8,
+                  "y": -32
+                }
+              ],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 15,
+              "masks": 15
+            }
+          ],
+          "animations": [
+            {
+              "name": "doorwall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "wall-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "bash_tip",
@@ -1507,7 +1708,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "money",
           "smoothed": true,
@@ -1521,8 +1722,8 @@
           "font": "",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
+            "b": 6,
+            "g": 255,
             "r": 0
           }
         },
@@ -1532,7 +1733,14 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "prefix",
+              "type": "string",
+              "value": "room"
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -1691,18 +1899,6 @@
           "name": "end",
           "tags": "",
           "texture": "end-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "deathlevel",
-          "tags": "",
-          "texture": "NewFile-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -1871,6 +2067,34 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Kinematic",
@@ -1890,8 +2114,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 3,
-              "masks": 3
+              "layers": 15,
+              "masks": 15
             }
           ],
           "animations": [
@@ -1935,6 +2159,34 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
             {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
@@ -2138,6 +2390,277 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EXIT",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "EXIT",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "EXIT-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "chicken",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 15,
+              "masks": 15
+            }
+          ],
+          "animations": [
+            {
+              "name": "chicken",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "chicken-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "money_loot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "extraBorder": 0,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "money",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "money-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "lootspawner",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            }
+          ],
+          "animations": [
+            {
+              "name": "loot",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "money-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Health",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Health: ",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -2422,6 +2945,17 @@
                 "foot",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "deletion_wall",
+                "player",
+                "GlobalVariable(money)/100",
+                ""
+              ]
             }
           ],
           "events": [
@@ -2452,7 +2986,29 @@
                       "parameters": [
                         "foot",
                         "Physics2",
-                        "door",
+                        "doors",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::Collision"
+                      },
+                      "parameters": [
+                        "foot",
+                        "Physics2",
+                        "elevator",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::Collision"
+                      },
+                      "parameters": [
+                        "foot",
+                        "Physics2",
+                        "chicken",
                         ""
                       ]
                     }
@@ -2757,6 +3313,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -2776,7 +3337,7 @@
                   "parameters": [
                     "weapons",
                     "Physics2",
-                    "door",
+                    "doors",
                     ""
                   ]
                 }
@@ -2800,7 +3361,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "door",
+                "doors",
                 "Health",
                 "weapons.Physics2::LinearVelocity()",
                 "",
@@ -2818,7 +3379,7 @@
                     "value": "Health::Health::IsDead"
                   },
                   "parameters": [
-                    "door",
+                    "doors",
                     "Health",
                     ""
                   ]
@@ -2864,22 +3425,22 @@
           "actions": [
             {
               "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"room\" + ToString(RandomInRange(1,9))",
+                "spawnpoint.X()",
+                "spawnpoint.Y()"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
                 "spawnpoint",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"room\" + ToString(RandomInRange(1,7))",
-                "spawnpoint.X()",
-                "spawnpoint.Y()"
               ]
             }
           ]
@@ -2895,7 +3456,7 @@
               "parameters": [
                 "deletion_wall",
                 "+",
-                "DistanceBetweenPositions(deletion_wall.CenterX(),deletion_wall.CenterY(),player.X(),player.Y())/(1000-GlobalVariable(money))"
+                "DistanceBetweenPositions(deletion_wall.CenterX(),deletion_wall.CenterY(),player.X(),player.Y())/(800)"
               ]
             },
             {
@@ -2905,27 +3466,7 @@
               "parameters": [
                 "deletion_wall",
                 "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "deletion_wall",
-                "-",
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledSpriteObject::Width"
-              },
-              "parameters": [
-                "deathlevel",
-                "*",
-                "1.1"
+                "DistanceBetweenPositions(deletion_wall.CenterX(),deletion_wall.CenterY(),player.X(),player.Y())/(800)"
               ]
             }
           ],
@@ -3049,6 +3590,17 @@
                         "yes",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "foot",
+                        "channel",
+                        "=",
+                        "RandomInRange(1000,5000)"
+                      ]
                     }
                   ]
                 }
@@ -3059,26 +3611,207 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PosY"
+                    "value": "Physics2::Collision"
                   },
                   "parameters": [
-                    "deathlevel",
-                    "<",
-                    "player.Y()"
+                    "hand",
+                    "Physics2",
+                    "wall",
+                    ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "hand",
+                    "multi",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetCenter"
+                    "value": "Physics2::AddWeldJoint"
                   },
                   "parameters": [
-                    "player",
+                    "hand",
+                    "Physics2",
+                    "hand.CenterX()",
+                    "hand.CenterY()",
+                    "wall",
+                    "wall.CenterX()",
+                    "wall.CenterY()",
+                    "0",
+                    "10",
+                    "1",
+                    "yes",
+                    "grip1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "hand",
+                    "Physics2",
+                    "wall",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "hand",
+                    "multi",
                     "=",
-                    "deathlevel.CenterX()",
-                    "=",
-                    "deathlevel.CenterY()"
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::AddWeldJoint"
+                  },
+                  "parameters": [
+                    "hand",
+                    "Physics2",
+                    "hand.CenterX()",
+                    "hand.CenterY()",
+                    "wall",
+                    "wall.CenterX()",
+                    "wall.CenterY()",
+                    "0",
+                    "10",
+                    "1",
+                    "yes",
+                    "grip2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "grip1",
+                    "!=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::Remove joint"
+                  },
+                  "parameters": [
+                    "hand",
+                    "Physics2",
+                    "Variable(grip1)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "grip2",
+                    "!=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::Remove joint"
+                  },
+                  "parameters": [
+                    "hand",
+                    "Physics2",
+                    "Variable(grip2)"
                   ]
                 }
               ]
@@ -3089,19 +3822,6 @@
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "deletable",
           "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "deletable",
-                "player",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -3123,7 +3843,7 @@
               "parameters": [
                 "deletable",
                 "Health",
-                "5",
+                "10",
                 "no",
                 "no",
                 ""
@@ -3181,6 +3901,16 @@
                         "",
                         "\"game\"",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "money",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -3287,7 +4017,7 @@
                       },
                       "parameters": [
                         "",
-                        "deletable.Variable(channel)",
+                        "0357401",
                         "deletable.CenterX()",
                         "deletable.CenterY()",
                         "1"
@@ -3310,7 +4040,7 @@
                       "parameters": [
                         "",
                         "destruction.mp3",
-                        "deletable.Variable(channel)",
+                        "0357401",
                         "",
                         "100",
                         "1"
@@ -3411,15 +4141,9 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "player",
-                "deathlevel",
-                "",
-                "",
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -3987,32 +4711,449 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "foot",
           "conditions": [
             {
               "type": {
-                "value": "Physics2::LinearVelocityLength"
+                "value": "Physics2::Collision"
               },
               "parameters": [
-                "resisted",
+                "foot",
                 "Physics2",
-                ">=",
-                "100"
+                "deletable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "step_default_1.ogg",
+                "foot.Variable(channel)",
+                "",
+                "50",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "chicken",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "chicken",
+                "Physics2",
+                "wall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "6790"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Physics2::ApplyPolarForce"
+                "value": "Physics2::LinearVelocityY"
               },
               "parameters": [
-                "resisted",
+                "chicken",
                 "Physics2",
-                "resisted.Angle()-180",
-                "resisted.Physics2::Inertia()/10",
-                "resisted.CenterX()",
-                "resisted.CenterY()"
+                "-",
+                "400"
+              ]
+            },
+            {
+              "type": {
+                "value": "SpatialSound::SetSoundPosition"
+              },
+              "parameters": [
+                "",
+                "6790",
+                "1",
+                "chicken.CenterX()",
+                "chicken.BoundingBoxCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SpatialSound::SetListenerPosition"
+              },
+              "parameters": [
+                "player.CenterX()",
+                "player.CenterY()",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "chicken.wav",
+                "6790",
+                "",
+                "100",
+                "RandomFloatInRange(0.5,1.5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "chicken",
+                "Physics2",
+                "=",
+                "100*RandomInRange(-1,1)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "hand",
+                "Physics2",
+                "chicken",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "chicken",
+                "=",
+                "hand.CenterX()",
+                "=",
+                "hand.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "wall",
+                "player.CenterX()",
+                "player.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "player",
+                "wall",
+                "5000",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "spawnpoint",
+                "player.X()",
+                "player.Y()",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "hand",
+                "=",
+                "player.CenterX()",
+                "=",
+                "player.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "hand",
+                "Physics2",
+                "money_loot",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "money_loot",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "money",
+                "+",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "money",
+                "=",
+                "\"Money: \" + ToString(GlobalVariable(money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "MONEY.wav",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "lootspawner",
+                "!=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+              },
+              "parameters": [
+                "lootspawner",
+                "InOnScreen",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "lootamount",
+                    "=",
+                    "RandomInRange(1,(GlobalVariable(money)/100)+1)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "lootamount",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "money_loot",
+                    "lootspawner.CenterX()",
+                    "lootspawner.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "money_loot",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "lootamount",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "lootamount",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "lootspawner",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Health::Health::IsJustDamaged"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::IsJustHealed"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "\"Health: \" + ToString(player.Health::Health())"
               ]
             }
           ]
@@ -13818,6 +14959,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "lootspawner",
+          "persistentUuid": "c6d9f91a-73b4-47f5-a18e-760afc0164b0",
+          "width": 96,
+          "x": 352,
+          "y": -64,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -13830,7 +14986,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.2500000000000001,
+        "zoomFactor": 0.4600000000000003,
         "windowMask": false
       }
     },
@@ -13907,7 +15063,7 @@
           "persistentUuid": "1a2ac996-47a6-49c8-9195-269b724c5f89",
           "width": 0,
           "x": 736,
-          "y": 320,
+          "y": 223,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -14062,6 +15218,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "lootspawner",
+          "persistentUuid": "181f277d-f2d0-4b62-a07c-8249f5e9ddc0",
+          "width": 96,
+          "x": 352,
+          "y": -64,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -14074,7 +15245,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3100000000000014,
+        "zoomFactor": 0.3700000000000011,
         "windowMask": false
       }
     },
@@ -14175,35 +15346,20 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 352,
+          "height": 160,
           "layer": "",
           "name": "wall",
           "persistentUuid": "241fa5e8-cb7a-4bee-9914-4417670c577e",
-          "width": 288,
+          "width": 224,
           "x": 288,
-          "y": -160,
+          "y": 32,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "bd0ba68a-f1b8-4e2b-88ad-3360f84b1a3e",
-          "width": 64,
-          "x": 224,
-          "y": 64,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
+          "angle": 180,
           "customSize": true,
           "height": 96,
           "layer": "",
@@ -14211,23 +15367,8 @@
           "persistentUuid": "483b24c1-271b-4062-b17d-0b8c0d5d58eb",
           "width": 96,
           "x": 352,
-          "y": -960,
+          "y": -1088,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "024010f3-5cb3-48e2-b03c-38cf69595cd5",
-          "width": 160,
-          "x": 320,
-          "y": -864,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14246,6 +15387,43 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "elevator",
+          "persistentUuid": "207a9fad-a582-4520-bfb8-0773f07efb36",
+          "width": 224,
+          "x": 288,
+          "y": -32,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "multi",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "lootspawner",
+          "persistentUuid": "9737bb2d-dd43-4fb9-b325-fd42bb54f751",
+          "width": 96,
+          "x": 352,
+          "y": -992,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -14258,7 +15436,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.30999999999999983,
+        "zoomFactor": 0.24999999999999947,
         "windowMask": false
       }
     },
@@ -14359,7 +15537,7 @@
               "folded": true,
               "name": "multi",
               "type": "number",
-              "value": -10
+              "value": -1
             }
           ]
         },
@@ -14445,7 +15623,7 @@
           "layer": "",
           "name": "kakos",
           "persistentUuid": "bd47b17f-3844-4469-82e4-fcee1aff3a9d",
-          "width": 2944,
+          "width": 1024,
           "x": 32,
           "y": 256,
           "zOrder": 14,
@@ -14456,13 +15634,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1024,
+          "height": 32,
           "layer": "",
-          "name": "deathlevel",
-          "persistentUuid": "c79b1ca2-11ca-4a90-bc87-92ebc8e956f6",
-          "width": 12512,
-          "x": -2816,
-          "y": 33408,
+          "name": "lootspawner",
+          "persistentUuid": "273aec9e-e7f4-48c3-bbb0-d96d8df258b7",
+          "width": 96,
+          "x": 672,
+          "y": -1536,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -14479,7 +15657,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.010000000000000009,
+        "zoomFactor": 0.40000000000000047,
         "windowMask": false
       }
     },
@@ -14621,6 +15799,43 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 576,
+          "layer": "",
+          "name": "elevator",
+          "persistentUuid": "5eb03ae0-cbc6-4e28-99cc-cdd727352ac9",
+          "width": 3936,
+          "x": 2272,
+          "y": 2816,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "multi",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "lootspawner",
+          "persistentUuid": "06d097d4-5808-477d-bda1-79e80300f008",
+          "width": 96,
+          "x": 5216,
+          "y": 480,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -14633,7 +15848,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.04000000000000012,
+        "zoomFactor": 0.52,
         "windowMask": false
       }
     },
@@ -14757,7 +15972,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.37000000000000094,
+        "zoomFactor": 0.550000000000001,
         "windowMask": false
       }
     },
@@ -15049,6 +16264,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "name": "lootspawner",
+          "persistentUuid": "75010861-3ffb-4b4e-bfa0-762fab050237",
+          "width": 48,
+          "x": 384,
+          "y": 80,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -15061,15 +16291,257 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3400000000000003,
+        "zoomFactor": 0.8200000000000005,
         "windowMask": false
       }
     },
     {
-      "associatedLayout": "",
+      "associatedLayout": "game",
       "name": "room8",
-      "instances": [],
-      "editionSettings": {}
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "3789a207-056c-4a45-ba6a-73b00cffdbaa",
+          "width": 1216,
+          "x": 0,
+          "y": -128,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1216,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "51e6831f-7526-4e63-8e72-90ff109a21d3",
+          "width": 320,
+          "x": 0,
+          "y": 256,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 640,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "d39cd140-81ac-4ff1-b107-9f997b9dfaca",
+          "width": 511,
+          "x": 705,
+          "y": 256,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 320,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "faeac4c9-29e2-4335-9f41-eab45cb77040",
+          "width": 896,
+          "x": 320,
+          "y": 1152,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 576,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "4bfa145b-725b-4185-a23b-ee9a7e0990c3",
+          "width": 128,
+          "x": 640,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "1875e40d-145d-4fbc-a9e5-25dfa9d479fc",
+          "width": 64,
+          "x": 320,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 384,
+          "layer": "",
+          "name": "door",
+          "persistentUuid": "70c0fd4d-a76a-490c-af52-0f4889613ea6",
+          "width": 64,
+          "x": 480,
+          "y": 96,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "650935b0-7a32-4945-9e7f-45cde8804684",
+          "width": 1,
+          "x": 1215,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "5eb0cb8c-385d-4d7e-a232-ce3f2f5db86b",
+          "width": 1,
+          "x": 1215,
+          "y": 896,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 64,
+        "gridHeight": 64,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 0,
+        "gridAlpha": 1,
+        "snap": true,
+        "zoomFactor": 0.07000000000000006,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "game",
+      "name": "room9",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "f73ff05b-d98f-485c-9d3c-9983c3570494",
+          "width": 960,
+          "x": 0,
+          "y": 192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
+          "width": 64,
+          "x": 0.000030517578125,
+          "y": -94,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "866e093b-2375-46b4-a324-3a0b487011d6",
+          "width": 32,
+          "x": 512,
+          "y": 224,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "bb84a39f-b26f-490a-9594-b495bb7c366e",
+          "width": 63.999969482421875,
+          "x": 896,
+          "y": -94,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "b547bf44-b918-4660-b534-b991b9af0126",
+          "width": 0,
+          "x": 896,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 0,
+        "gridAlpha": 0.1,
+        "snap": true,
+        "zoomFactor": 0.3700000000000035,
+        "windowMask": false
+      }
     }
   ],
   "externalSourceFiles": []
