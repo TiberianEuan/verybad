@@ -2608,21 +2608,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 352,
-          "layer": "",
-          "name": "MEDKIT",
-          "persistentUuid": "37ced6c6-bbb1-45e8-adbd-fc00b1efdca6",
-          "width": 704,
-          "x": 48,
-          "y": -352,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -2638,9 +2623,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 5000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 5000
             },
             {
               "name": "Health",
@@ -4901,9 +4886,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 100,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
             },
             {
               "name": "Health",
