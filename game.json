@@ -2004,6 +2004,114 @@
         "name": "astronaut_hunch-4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "reroller-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "reroller-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FIRE-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FIRE-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FIRE-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FIRE-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FIRE-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FIRE-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FIRE-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FIRE-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "egg-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg_smashed-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "egg_smashed-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "egg-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg_smashed-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "egg_smashed-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "medkit-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "medkit-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sword-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sword-1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2039,7 +2147,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 1.4400000000000006,
+        "zoomFactor": 0.31000000000000094,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2051,9 +2159,6 @@
             },
             {
               "name": "mouse"
-            },
-            {
-              "name": "chicken"
             }
           ]
         },
@@ -2125,6 +2230,20 @@
             },
             {
               "name": "doorwall"
+            }
+          ]
+        },
+        {
+          "name": "organic",
+          "objects": [
+            {
+              "name": "chicken"
+            },
+            {
+              "name": "zombie"
+            },
+            {
+              "name": "player"
             }
           ]
         }
@@ -2216,7 +2335,7 @@
           "width": 64,
           "x": 144,
           "y": 264,
-          "zOrder": 2,
+          "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2244,7 +2363,7 @@
           "name": "hand",
           "persistentUuid": "a1a6da2e-af8a-48d0-9299-0a29bf945fa7",
           "width": 32,
-          "x": 176,
+          "x": 216,
           "y": 360,
           "zOrder": 5,
           "numberProperties": [],
@@ -2254,7 +2373,7 @@
               "folded": true,
               "name": "multi",
               "type": "number",
-              "value": -1
+              "value": 1
             }
           ]
         },
@@ -2271,7 +2390,14 @@
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "multi",
+              "type": "number",
+              "value": -1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -2351,13 +2477,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 608,
+          "height": 160,
           "layer": "",
           "name": "deletion_wall",
           "persistentUuid": "adc3fe8f-1b94-4569-9cff-e415c6ca8479",
           "width": 160,
-          "x": -768,
-          "y": 0,
+          "x": -736,
+          "y": 208,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2467,6 +2593,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "HUD",
+          "name": "FPSCounter",
+          "persistentUuid": "1be5c233-0f5e-4708-b618-7f88392e2063",
+          "width": 280,
+          "x": 0,
+          "y": 577,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "name": "MEDKIT",
+          "persistentUuid": "37ced6c6-bbb1-45e8-adbd-fc00b1efdca6",
+          "width": 704,
+          "x": 48,
+          "y": -352,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2482,9 +2638,9 @@
           "effects": [],
           "behaviors": [
             {
+              "extraBorder": 5000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 10000
+              "type": "DestroyOutsideBehavior::DestroyOutside"
             },
             {
               "name": "Health",
@@ -2492,7 +2648,7 @@
               "Health": 100,
               "CurrentHealth": 0,
               "MaxHealth": 100,
-              "DamageCooldown": 0.5,
+              "DamageCooldown": 0.1,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
               "HealthRegenDelay": 0,
@@ -2566,7 +2722,7 @@
               "type": "Health::Health",
               "Health": 25,
               "CurrentHealth": 0,
-              "MaxHealth": 25,
+              "MaxHealth": 0,
               "DamageCooldown": 0.5,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0.5,
@@ -2583,8 +2739,8 @@
               "IsShieldJustDamaged": false,
               "ChanceToDodge": 0.25,
               "DamageToBeApplied": 0,
-              "FlatDamageReduction": 1,
-              "PercentDamageReduction": 0.75,
+              "FlatDamageReduction": 0.25,
+              "PercentDamageReduction": 0,
               "IsJustDodged": false,
               "ShieldDamageTaken": 0,
               "HealToBeApplied": 0
@@ -3107,7 +3263,7 @@
               "type": "Health::Health",
               "Health": 30,
               "CurrentHealth": 0,
-              "MaxHealth": 30,
+              "MaxHealth": 0,
               "DamageCooldown": 1,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
@@ -3166,6 +3322,116 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "hand-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "doorwall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [
+                {
+                  "x": -8,
+                  "y": 31
+                },
+                {
+                  "x": 8,
+                  "y": 31
+                },
+                {
+                  "x": 8,
+                  "y": -32
+                },
+                {
+                  "x": -8,
+                  "y": -32
+                }
+              ],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 15,
+              "masks": 15
+            }
+          ],
+          "animations": [
+            {
+              "name": "doorwall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "wall-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3281,116 +3547,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "door-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "doorwall",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 100,
-              "CurrentHealth": 0,
-              "MaxHealth": 100,
-              "DamageCooldown": 0,
-              "IsHealthJustDamaged": false,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "AllowOverHealing": false,
-              "HitAtLeastOnce": false,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 0,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ChanceToDodge": 0,
-              "DamageToBeApplied": 0,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0,
-              "IsJustDodged": false,
-              "ShieldDamageTaken": 0,
-              "HealToBeApplied": 0
-            },
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Dynamic",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [
-                {
-                  "x": -8,
-                  "y": 31
-                },
-                {
-                  "x": 8,
-                  "y": 31
-                },
-                {
-                  "x": 8,
-                  "y": -32
-                },
-                {
-                  "x": -8,
-                  "y": -32
-                }
-              ],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 15,
-              "masks": 15
-            }
-          ],
-          "animations": [
-            {
-              "name": "doorwall",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "wall-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3564,7 +3720,24 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Adjustment",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 0.75,
+                "blue": 0,
+                "brightness": 1,
+                "contrast": 1,
+                "gamma": 1,
+                "green": 0,
+                "red": 1,
+                "saturation": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -4036,14 +4209,14 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 100,
+              "Health": 20,
               "CurrentHealth": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 0,
               "DamageCooldown": 1,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
               "HealthRegenDelay": 0,
-              "AllowOverHealing": false,
+              "AllowOverHealing": true,
               "HitAtLeastOnce": false,
               "IsJustHealed": false,
               "CurrentShieldPoints": 0,
@@ -4179,11 +4352,38 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "FireBullet",
+              "type": "FireBullet::FireBullet",
+              "FireCooldown": 10,
+              "HasJustFired": false,
+              "FiringArc": 45,
+              "BulletQuantity": 1,
+              "AngleVariance": 180,
+              "RotateBullet": true,
+              "AmmoQuantity": 0,
+              "ShotsPerReload": 0,
+              "ReloadDuration": 1,
+              "MaxAmmo": 0,
+              "ShotsBeforeNextReload": 0,
+              "TotalShotsFired": 0,
+              "TotalBulletsCreated": 0,
+              "StartingAmmo": 0,
+              "TotalReloadsCompleted": 0,
+              "UnlimitedAmmo": true,
+              "ReloadInProgress": false,
+              "HeatIncreasePerShot": 0,
+              "HeatLevel": 0,
+              "AutomaticReloading": true,
+              "OverheatDuration": 0,
+              "LinearCoolingRate": 0.1,
+              "ExponentialCoolingRate": 0.3
+            },
+            {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 100,
+              "Health": 10,
               "CurrentHealth": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 0,
               "DamageCooldown": 0,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
@@ -4223,7 +4423,7 @@
               "density": 1,
               "friction": 0.3,
               "restitution": 0.1,
-              "linearDamping": 0.1,
+              "linearDamping": 0.9,
               "angularDamping": 0.1,
               "gravityScale": 1,
               "layers": 15,
@@ -4701,6 +4901,11 @@
           "effects": [],
           "behaviors": [
             {
+              "extraBorder": 100,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
+            {
               "name": "Health",
               "type": "Health::Health",
               "Health": 5,
@@ -4729,1054 +4934,107 @@
               "HealToBeApplied": 0
             },
             {
-              "name": "Sticker",
-              "type": "Sticker::Sticker",
-              "OnlyFollowPosition": true
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Circle",
+              "shapeDimensionA": 1,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 65535,
+              "masks": 65535
             }
           ],
           "animations": [
             {
-              "name": "BrightFire_1",
+              "name": "FIRE",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.01640000008046627,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-1.png",
+                      "image": "FIRE-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-2.png",
+                      "image": "FIRE-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-3.png",
+                      "image": "FIRE-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-4.png",
+                      "image": "FIRE-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-19.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-20.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-21.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-22.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-23.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-24.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-25.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-26.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-27.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-28.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-29.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-30.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-31.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-32.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-33.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-34.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-35.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-36.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-37.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-38.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-39.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-40.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-41.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-42.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-43.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-44.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-45.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-46.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-47.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-48.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-49.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-50.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-51.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-52.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-53.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-54.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-55.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-56.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-57.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-58.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-59.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-60.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\BrightFire_1-61.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 53,
-                        "y": 64
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 53,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -5816,6 +5074,120 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
+                        "x": 64,
+                        "y": 50
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FPSCounter",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "FPS: ",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "reroll_upgrades",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "CurrentHealth": 0,
+              "MaxHealth": 100,
+              "DamageCooldown": 0,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "reroller",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "reroller-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
                         "x": 0,
                         "y": 0
                       },
@@ -5832,6 +5204,316 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "egg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "egg",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "egg-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "egg_smashed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "egg_smashed-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MEDKIT",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 65535,
+              "masks": 65535
+            }
+          ],
+          "animations": [
+            {
+              "name": "medkit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "medkit-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "zombie",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 50,
+              "CurrentHealth": 0,
+              "MaxHealth": 50,
+              "DamageCooldown": 1,
+              "IsHealthJustDamaged": false,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "AllowOverHealing": false,
+              "HitAtLeastOnce": false,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 0,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ChanceToDodge": 0,
+              "DamageToBeApplied": 0,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0,
+              "IsJustDodged": false,
+              "ShieldDamageTaken": 0,
+              "HealToBeApplied": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.1,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "zombie",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"player_hunch-3\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":52,\\\"width\\\":20,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAA0CAYAAACKJRg7AAAAAXNSR0IArs4c6QAAALJJREFUWEdjZKAyYKSyeQyjBlIeoiM8DP9TGILg4EMOQ9oYaBChRZJDL6y4BlOP3YWjBhIMz9EwxEzYIzDZEEwnuBXQvnCA2Q0udbBFDnoixuZYbFUAVQ0kpUzEWh+hC9LGQBMHI5xxeebAOZQCFV0hVheOGogSTAMahvAkQ61IARtIiWFYWw4jx0CqRAhyGFIlQkYNhGTZkZMOQb6lStLB6AUM/jAksm2Ds49IbscHp4EAtEyUNelEcX8AAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAA0CAYAAACKJRg7AAAAAXNSR0IArs4c6QAAAJFJREFUWEftk8ENgCAQBKEdX5ZjiZbjy3YwmECAcHju8dBkefE4JmF2z7vJx0/mOQLtRumQDgEDrA0grXlCh3QIGGBtAGlcPUttQqEvc1BgWLcl8479jPebhQArWKIm6H+BXeFFCK8cisPNUqhSHgrXLGYbyveB8Vdah10DUg+fUhZ1IsUeZkOgprrjGTq0O7wAol0sNdh4eW8AAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Euan MORRISON\\\\Documents\\\\GDevelop projects\\\\verybad\\\\zombie-1.png\"],\"name\":\"zombie\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "zombie-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "sword",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "sword",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sword-1.png",
+                      "points": [
+                        {
+                          "name": "handle",
+                          "x": 3,
+                          "y": 27
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 3,
+                        "y": 27
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5840,219 +5522,10 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Visuals",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Health::Health::IsJustDamaged"
-                      },
-                      "parameters": [
-                        "player",
-                        "Health",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::IsJustDodged"
-                      },
-                      "parameters": [
-                        "player",
-                        "Health",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::IsShieldJustDamaged"
-                      },
-                      "parameters": [
-                        "player",
-                        "Health",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::IsJustHealed"
-                      },
-                      "parameters": [
-                        "player",
-                        "Health",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "healthbar",
-                    "=",
-                    "player.Health::Health()*10"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Health::Health::IsJustHealed"
-                      },
-                      "parameters": [
-                        "player",
-                        "Health",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "healthbar",
-                        "\"244;255;15\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "player.Health::Health()",
-                        "<",
-                        "player.Health::MaxHealth()/4"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "healthbar",
-                        "\"197;0;0\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "player.Health::Health()",
-                        "<",
-                        "player.Health::MaxHealth()/3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "player.Health::Health()",
-                        ">",
-                        "player.Health::MaxHealth()/4"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "healthbar",
-                        "\"255;125;0\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "player.Health::Health()",
-                        "=",
-                        "player.Health::MaxHealth()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "healthbar",
-                        "\"3;255;0\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "player.Health::Health()",
-                        ">",
-                        "player.Health::MaxHealth()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "healthbar",
-                        "\"234;0;255\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
@@ -6124,7 +5597,7 @@
               "parameters": [
                 "deletion_wall",
                 "player",
-                "GlobalVariable(money)/100",
+                "(GlobalVariable(money)/10000000000)+1",
                 ""
               ]
             }
@@ -6337,23 +5810,49 @@
                           ]
                         }
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetAngle"
-                          },
-                          "parameters": [
-                            "wings",
-                            "-",
-                            "30"
-                          ]
-                        }
-                      ],
+                      "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Repeat",
-                          "repeatExpression": "10",
-                          "conditions": [],
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Angle"
+                              },
+                              "parameters": [
+                                "wings",
+                                "=",
+                                "player.Angle()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetAngle"
+                              },
+                              "parameters": [
+                                "wings",
+                                "-",
+                                "30"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Angle"
+                              },
+                              "parameters": [
+                                "wings",
+                                "<",
+                                "player.Angle()"
+                              ]
+                            }
+                          ],
                           "actions": [
                             {
                               "type": {
@@ -6489,6 +5988,44 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "s"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "foot",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "player",
+                    "Physics2",
+                    "+",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
@@ -6601,11 +6138,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         },
@@ -6695,18 +6227,127 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "sword",
+                    "wall",
+                    "wall",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "wall",
+                "Health",
+                "(weapons.Physics2::LinearVelocity()*2)*(weapons.Physics2::AngularVelocity()*2)/2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetColor"
+              },
+              "parameters": [
+                "wall",
+                "ToString(255-wall.Health::Health())+\";0;0\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "wall",
+                    "Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetSize"
+                  },
+                  "parameters": [
+                    "wall",
+                    "wall.Width()*0.90",
+                    "wall.Height()*0.90"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "spawnpoint",
           "conditions": [
             {
               "type": {
-                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "spawnpoint",
-                "InOnScreen",
-                "0",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                  },
+                  "parameters": [
+                    "spawnpoint",
+                    "InOnScreen",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "spawnpoint",
+                    "player",
+                    "1000",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -6717,7 +6358,7 @@
               },
               "parameters": [
                 "",
-                "\"room\" + ToString(RandomInRange(1,10))",
+                "\"room\" + ToString(RandomInRange(1,11))",
                 "spawnpoint.X()",
                 "spawnpoint.Y()"
               ]
@@ -6744,7 +6385,7 @@
               "parameters": [
                 "deletion_wall",
                 "+",
-                "DistanceBetweenPositions(deletion_wall.CenterX(),deletion_wall.CenterY(),player.X(),player.Y())/(800)"
+                "5"
               ]
             },
             {
@@ -6754,7 +6395,27 @@
               "parameters": [
                 "deletion_wall",
                 "+",
-                "DistanceBetweenPositions(deletion_wall.CenterX(),deletion_wall.CenterY(),player.X(),player.Y())/(800)"
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "deletion_wall",
+                "-",
+                "2.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "deletion_wall",
+                "-",
+                "2.5"
               ]
             }
           ],
@@ -7131,9 +6792,9 @@
               "parameters": [
                 "deletable",
                 "Health",
-                "10",
-                "no",
-                "no",
+                "1",
+                "",
+                "",
                 ""
               ]
             },
@@ -7144,90 +6805,22 @@
               "parameters": [
                 "",
                 "BrightFire",
-                "deletable.CenterX()+RandomInRange(-20,20)",
-                "deletable.CenterY()+RandomInRange(-20,20)",
+                "deletable.CenterX()+RandomInRange((deletable.Width()-deletable.Width()*2),deletable.Width())",
+                "deletable.CenterY()+RandomInRange((deletable.Height()-deletable.Height()*2),deletable.Height())",
                 "\"\""
               ]
             },
             {
               "type": {
-                "value": "Sticker::Sticker::Stick"
+                "value": "Physics2::SetDynamic"
               },
               "parameters": [
-                "BrightFire",
-                "Sticker",
                 "deletable",
-                ""
+                "Physics2"
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "deletable",
-                    "Health",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "deletable",
-                    ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "",
-                        "player",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"game\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "money",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7368,40 +6961,95 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "CollisionNP"
+                "value": "Health::Health::IsDead"
               },
               "parameters": [
-                "BrightFire",
                 "deletable",
-                "",
-                "",
+                "Health",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "deletable",
+                    "deletion_wall",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "deletable",
+                    "BrightFire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Health::Health::Hit"
+                "value": "Delete"
               },
               "parameters": [
-                "BrightFire",
-                "Health",
-                "1",
-                "no",
-                "no",
+                "deletable",
                 ""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "BrightFire",
-                "=",
-                "((deletable.Width()+deletable.Height())/2)/(100-BrightFire.Health::Health())"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "player",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"game\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "money",
+                    "=",
+                    "0"
+                  ]
+                }
               ]
             }
           ]
@@ -7423,12 +7071,66 @@
             },
             {
               "type": {
-                "value": "Health::Health::IsJustHealed"
+                "value": "Physics2::LinearVelocityLength"
+              },
+              "parameters": [
+                "BrightFire",
+                "Physics2",
+                ">",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
               },
               "parameters": [
                 "BrightFire",
                 "Health",
+                "1",
+                "no",
+                "no",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "BrightFire",
+                "=",
+                "BrightFire.Health::Health()/10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "deletable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityLength"
+              },
+              "parameters": [
+                "BrightFire",
+                "Physics2",
+                "<=",
+                "15"
               ]
             }
           ],
@@ -7448,12 +7150,66 @@
             },
             {
               "type": {
+                "value": "Health::Health::Heal"
+              },
+              "parameters": [
+                "BrightFire",
+                "Health",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangeScale"
               },
               "parameters": [
                 "BrightFire",
                 "=",
-                "((deletable.Width()+deletable.Height())/2)/(100-BrightFire.Health::Health())"
+                "BrightFire.Health::Health()/10"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "FPS::FPS()",
+                    ">",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "deletable",
+                    "BrightFire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BrightFire",
+                    "deletable.CenterX()+RandomInRange((deletable.Width()-deletable.Width()*2),deletable.Width())",
+                    "deletable.CenterY()+RandomInRange((deletable.Height()-deletable.Height()*2),deletable.Height())",
+                    "\"\""
+                  ]
+                }
               ]
             }
           ]
@@ -7538,81 +7294,6 @@
               "parameters": [
                 "worldend_tip",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                "999999",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "player",
-                    "Health",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"game\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "money",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "money",
-                    "=",
-                    "\"Money: \" + ToString(GlobalVariable(money))"
-                  ]
-                }
               ]
             }
           ]
@@ -8315,18 +7996,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "player",
-                "kakos",
-                "kakos",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -8347,6 +8016,35 @@
                   "parameters": [
                     "player",
                     "\"player_hunch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "kakos",
+                    "kakos",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "k"
                   ]
                 }
               ]
@@ -8561,36 +8259,6 @@
           "conditions": [
             {
               "type": {
-                "value": "Physics2::Collision"
-              },
-              "parameters": [
-                "hand",
-                "Physics2",
-                "chicken",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "chicken",
-                "=",
-                "hand.CenterX()",
-                "=",
-                "hand.CenterY()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "PickNearest"
               },
               "parameters": [
@@ -8711,17 +8379,6 @@
                 "lootspawner",
                 "!=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "IsOnScreen::InOnScreen::IsOnScreen"
-              },
-              "parameters": [
-                "lootspawner",
-                "InOnScreen",
-                "0",
-                ""
               ]
             }
           ],
@@ -9633,6 +9290,1262 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FPSCounter",
+                "!=",
+                "\"FPS: \" + ToString(FPS::FPS())"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FPSCounter",
+                "=",
+                "\"FPS: \" + ToString(FPS::FPS())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Health",
+                "!=",
+                "\"Health: \" + ToString(player.Health::Health())"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "\"Health: \" + ToString(player.Health::Health())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "reroll_upgrades",
+                "Physics2",
+                "hand",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "upgrade",
+                "\"nothing\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "BrightFire",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "BrightFire",
+                "BrightFire",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "deletable",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "BrightFire",
+                "Physics2",
+                "5",
+                "deletable.CenterX()",
+                "deletable.CenterY()",
+                "BrightFire.CenterX()",
+                "BrightFire.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "deletable",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "BrightFire",
+                "Physics2",
+                "player",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "BrightFire",
+                "Physics2",
+                "5",
+                "player.CenterX()",
+                "player.CenterY()",
+                "BrightFire.CenterX()",
+                "BrightFire.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "player",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "deletion_wall",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Heal"
+              },
+              "parameters": [
+                "BrightFire",
+                "Health",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BrightFire",
+                "deletable",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BrightFire",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "weapons",
+                "Physics2",
+                "wall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "player",
+                "\"kratos\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "player",
+                "\"player_normal\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "deletable",
+                "deletion_wall",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::IsDynamic"
+              },
+              "parameters": [
+                "deletable",
+                "Physics2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "deletable",
+                "Physics2",
+                "deletable.Distance(deletion_wall)/100",
+                "deletable.CenterX()",
+                "deletable.CenterY()",
+                "BrightFire.CenterX()",
+                "BrightFire.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "player",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"game\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "BrightFire",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BrightFire",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::IsReadyToShoot"
+              },
+              "parameters": [
+                "chicken",
+                "FireBullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "weapons",
+                "chicken.CenterX()",
+                "chicken.CenterY()",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardPosition"
+              },
+              "parameters": [
+                "chicken",
+                "FireBullet",
+                "chicken.CenterX()",
+                "chicken.CenterY()",
+                "egg",
+                "weapons.CenterX()",
+                "weapons.CenterY()",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "egg",
+                "\"egg\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "egg",
+                    "wall",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "egg",
+                    "Physics2",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "egg",
+                    "\"egg_smashed\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "egg",
+                    "weapons",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "egg",
+                    "Physics2",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "egg",
+                    "\"egg_smashed\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "weapons",
+                    "Health",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "weapons",
+                    "Physics2",
+                    "=",
+                    "weapons.ForceX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "weapons",
+                    "Physics2",
+                    "=",
+                    "weapons.ForceY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BehaviorActivated"
+                  },
+                  "parameters": [
+                    "egg",
+                    "Physics2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "egg",
+                    "Physics2",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "egg",
+                "\"egg_smashed\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+              },
+              "parameters": [
+                "egg",
+                "InOnScreen",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "egg",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BehaviorActivated"
+                  },
+                  "parameters": [
+                    "egg",
+                    "Physics2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "egg",
+                    "Physics2",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "weapons",
+                "Physics2",
+                "MEDKIT",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "MEDKIT",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::SetCurrentHealth"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    "player.Health::Health()*10",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "hand",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::SetCurrentHealth"
+                  },
+                  "parameters": [
+                    "hand",
+                    "Health",
+                    "hand.Health::Health()*10",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "foot",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::SetCurrentHealth"
+                  },
+                  "parameters": [
+                    "foot",
+                    "Health",
+                    "foot.Health::Health()*10",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "zombie",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "zombie",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "sword",
+                    "zombie",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "Health",
+                    "zombie.Health::MaxHealth()/3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyPolarImpulse"
+                      },
+                      "parameters": [
+                        "zombie",
+                        "Physics2",
+                        "zombie.AngleToObject(sword)",
+                        "-10",
+                        "zombie.CenterX()",
+                        "zombie.CenterY()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "Physics2",
+                    "player",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    "player.Health::MaxHealth()/3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarForce"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "Physics2",
+                    "zombie.AngleToObject(player)",
+                    "1",
+                    "zombie.CenterX()",
+                    "zombie.CenterY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "Physics2",
+                    "wall",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarForce"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "Physics2",
+                    "zombie.AngleToObject(player)",
+                    "5",
+                    "zombie.CenterX()",
+                    "zombie.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::AngularVelocity"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "Physics2",
+                    "=",
+                    "AngleDifference(0,zombie.Angle())*5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "zombie"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "player.CenterX()",
+                    "<",
+                    "zombie.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "zombie"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "player.CenterX()",
+                    ">",
+                    "zombie.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "zombie",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "sword",
+                    "zombie",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::TimeScale"
+                  },
+                  "parameters": [
+                    "player",
+                    "Physics2",
+                    "1/2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "hand",
+                "sword.PointX(\"handle\")",
+                "sword.PointY(\"handle\")"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "sword",
+                "stuck",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "hand.CenterX()",
+                "=",
+                "hand.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "sword",
+                "stuck",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "sword",
+                "Sticker",
+                "hand",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Angle"
+              },
+              "parameters": [
+                "sword",
+                "!=",
+                "sword.AngleToObject(mouse)+90"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "sword",
+                "sword.AngleToObject(mouse)+90",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "sword",
+                "zombie",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::TimeScale"
+              },
+              "parameters": [
+                "player",
+                "Physics2",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "hand",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Physics2",
+                    "player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityLength"
+                      },
+                      "parameters": [
+                        "sword",
+                        "Physics2",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::AngularVelocity"
+                      },
+                      "parameters": [
+                        "sword",
+                        "Physics2",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    "(sword.Physics2::LinearVelocity()*sword.Physics2::AngularVelocity())/2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "hand",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "sword",
+                "hand.Angle()",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "hand.CenterX()",
+                "=",
+                "hand.CenterY()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -9672,6 +10585,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
           "name": "Health",
           "type": "Health::Health"
         },
@@ -9708,6 +10625,159 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Ahnaf30e",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "FPS",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMzAsM2gtMkg0SDJDMS40LDMsMSwzLjQsMSw0czAuNCwxLDEsMWgxdjE2YzAsMC42LDAuNCwxLDEsMWg5LjhsLTUuNSw2LjNjLTAuNCwwLjQtMC4zLDEsMC4xLDEuNEM4LjUsMjkuOSw4LjgsMzAsOSwzMA0KCWMwLjMsMCwwLjYtMC4xLDAuOC0wLjNsNS4yLTZWMjhjMCwwLjYsMC40LDEsMSwxczEtMC40LDEtMXYtNC4zbDUuMiw2YzAuMiwwLjIsMC41LDAuMywwLjgsMC4zYzAuMiwwLDAuNS0wLjEsMC43LTAuMg0KCWMwLjQtMC40LDAuNS0xLDAuMS0xLjRMMTguMiwyMkgyOGMwLjYsMCwxLTAuNCwxLTFWNWgxYzAuNiwwLDEtMC40LDEtMVMzMC42LDMsMzAsM3ogTTI0LjgsOC42bC00LDZjLTAuMywwLjQtMC44LDAuNi0xLjMsMC4zDQoJTDE1LjgsMTNoLTMuNGwtMy43LDMuN0M4LjUsMTYuOSw4LjMsMTcsOCwxN3MtMC41LTAuMS0wLjctMC4zYy0wLjQtMC40LTAuNC0xLDAtMS40bDQtNGMwLjItMC4yLDAuNC0wLjMsMC43LTAuM2g0DQoJYzAuMiwwLDAuMywwLDAuNCwwLjFsMy4yLDEuNmwzLjUtNS4zYzAuMy0wLjUsMC45LTAuNiwxLjQtMC4zQzI1LDcuNSwyNS4xLDguMSwyNC44LDguNnoiLz4NCjwvc3ZnPg0K",
+      "name": "FPS",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg",
+      "shortDescription": "Adds expressions and a behavior to get and display the game FPS.",
+      "version": "1.0.0",
+      "description": "Adds expressions to get the current FPS and a behavior to display the current FPS easily.\n\nThe FPS, Frames Per Second, describes how many times in the last second your game got updated. An update consists in running all the behaviors, objects, and events sheet code, before rendering the new game state into the game window. The higher the FPS, the more it manages to update in a second, influencing how fluid and performant your game looks.",
+      "tags": [
+        "fps",
+        "frames",
+        "per",
+        "second",
+        "performance",
+        "speed"
+      ],
+      "authorIds": [
+        "onPsboRtDkUHNOsx7OPr8R8G1oj2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Return your game's current FPS count.",
+          "fullName": "FPS (Frames per second)",
+          "functionType": "Expression",
+          "name": "FPS",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ceil(1/TimeDelta())"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Return your game's current FPS count, with more control over rounding.",
+          "fullName": "Precise FPS (Frames per second)",
+          "functionType": "Expression",
+          "name": "PreciseFPS",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "(ceil(1/TimeDelta()*(GetArgumentAsNumber(\"accuracy\") * 10))) / (GetArgumentAsNumber(\"accuracy\") * 10)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "The accuracy of the FPS",
+              "longDescription": "This tells how many numbers after the period should be shown.",
+              "name": "accuracy",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Makes a text object display the current FPS.",
+          "fullName": "FPS Displayer",
+          "name": "FPSDisplayer",
+          "objectType": "TextObject::Text",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::Propertyprefix() + ToString(FPS::FPS())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FPS::FPSDisplayer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "FPS: ",
+              "type": "String",
+              "label": "The prefix before the FPS count",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "prefix"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "Audio",
@@ -19511,7 +20581,7 @@
           "layer": "",
           "name": "wall",
           "persistentUuid": "bbf59319-dee7-4f40-b979-8a01df0fa018",
-          "width": 64,
+          "width": 1536,
           "x": 736,
           "y": -158,
           "zOrder": 6,
@@ -19542,8 +20612,8 @@
           "name": "spawnpoint",
           "persistentUuid": "1a2ac996-47a6-49c8-9195-269b724c5f89",
           "width": 0,
-          "x": 736,
-          "y": 223,
+          "x": 2239,
+          "y": 320,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -19556,7 +20626,7 @@
           "layer": "",
           "name": "wall",
           "persistentUuid": "f73f637e-14ae-4c7b-b380-16c7fdfb5921",
-          "width": 416,
+          "width": 1888,
           "x": 384,
           "y": 512,
           "zOrder": 10,
@@ -19713,6 +20783,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "97239af1-e891-44ad-bcd2-bc09167fa0ee",
+          "width": 32,
+          "x": 2240,
+          "y": 224,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -19725,7 +20810,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3700000000000011,
+        "zoomFactor": 0.31000000000000066,
         "windowMask": false
       }
     },
@@ -19916,7 +21001,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.24999999999999947,
+        "zoomFactor": 0.39999999999999947,
         "windowMask": false
       }
     },
@@ -19927,7 +21012,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1506,
+          "height": 1280,
           "layer": "",
           "name": "wall",
           "persistentUuid": "ff10c995-5483-4f30-80c4-ea78cdc373c0",
@@ -19946,7 +21031,7 @@
           "layer": "",
           "name": "wall",
           "persistentUuid": "f73ff05b-d98f-485c-9d3c-9983c3570494",
-          "width": 512,
+          "width": 640,
           "x": 0,
           "y": 194,
           "zOrder": 1,
@@ -19977,7 +21062,7 @@
           "name": "wall",
           "persistentUuid": "bbf59319-dee7-4f40-b979-8a01df0fa018",
           "width": 64,
-          "x": 512,
+          "x": 640,
           "y": -1440,
           "zOrder": 6,
           "numberProperties": [],
@@ -19991,9 +21076,9 @@
           "layer": "",
           "name": "wall",
           "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
-          "width": 351.9999694824219,
-          "x": 0.000030517578125,
-          "y": -158,
+          "width": 352,
+          "x": 0,
+          "y": -382,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -20006,7 +21091,7 @@
           "layer": "",
           "name": "elevator",
           "persistentUuid": "a28aca6f-2590-4e2e-8a67-62e5cdc77d6d",
-          "width": 160,
+          "width": 288,
           "x": 352,
           "y": 160,
           "zOrder": 8,
@@ -20017,49 +21102,19 @@
               "folded": true,
               "name": "multi",
               "type": "number",
-              "value": -1
+              "value": -5
             }
           ]
         },
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "2336906f-e745-41e2-a20b-bd9a056fe9e6",
-          "width": 288,
-          "x": 288,
-          "y": -1728,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "forced_crouch_zone",
-          "persistentUuid": "c03049df-00c2-4408-96c3-9fc2c2b42d98",
-          "width": 160,
-          "x": 352,
-          "y": -1664,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "height": 1,
           "layer": "",
           "name": "spawnpoint",
           "persistentUuid": "afbf9028-69c2-493f-a214-c569e232e6ed",
-          "width": 0,
-          "x": 512,
+          "width": 1,
+          "x": 640,
           "y": -1632,
           "zOrder": 11,
           "numberProperties": [],
@@ -20069,44 +21124,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "15d06488-6a05-42fe-89e2-806bb3301d54",
-          "width": 64,
-          "x": 512,
-          "y": -1664,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
+          "height": 288,
           "layer": "",
           "name": "wall",
           "persistentUuid": "d23f53bf-2477-46a4-a9f0-17aeee6e3689",
-          "width": 32,
+          "width": 96,
           "x": 0,
-          "y": -64,
+          "y": -288,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 96,
-          "layer": "",
-          "name": "kakos",
-          "persistentUuid": "bd47b17f-3844-4469-82e4-fcee1aff3a9d",
-          "width": 1024,
-          "x": 32,
-          "y": 256,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20119,9 +21144,24 @@
           "name": "lootspawner",
           "persistentUuid": "273aec9e-e7f4-48c3-bbb0-d96d8df258b7",
           "width": 96,
-          "x": 672,
-          "y": -1536,
+          "x": 448,
+          "y": -1568,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "MEDKIT",
+          "persistentUuid": "742219a5-0647-458a-a03b-a2931d91cd67",
+          "width": 64,
+          "x": 544,
+          "y": 128,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20137,7 +21177,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.40000000000000047,
+        "zoomFactor": 0.43000000000000105,
         "windowMask": false
       }
     },
@@ -20221,15 +21261,15 @@
           "initialVariables": []
         },
         {
-          "angle": 25.935455322265625,
+          "angle": 347.2236328125,
           "customSize": true,
           "height": 128,
           "layer": "",
           "name": "wall",
           "persistentUuid": "0e3a7613-6b77-477a-9d18-0745e705819f",
           "width": 384,
-          "x": 3776.929931640625,
-          "y": 439.9778747558594,
+          "x": 4151.345703125,
+          "y": 82.47280883789062,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -20243,8 +21283,8 @@
           "name": "wall",
           "persistentUuid": "529bff3e-21bb-4c0d-902f-4cf706284c48",
           "width": 283.2164611816406,
-          "x": 4013.022216796875,
-          "y": -296.23876953125,
+          "x": 3629.022216796875,
+          "y": -594.9776611328125,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -20316,6 +21356,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 326.25970458984375,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "5540e224-80ae-4597-8a84-5c2a75fc5fd4",
+          "width": 928,
+          "x": 5066.60693359375,
+          "y": -393.0606994628906,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "3fd5aeb6-02aa-449d-9bef-ccade979e1bf",
+          "width": 1248,
+          "x": 5408,
+          "y": -1088,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "name": "hammer_ceiling",
+          "persistentUuid": "fea2ecd5-0418-4e40-96c5-b352ac775a1b",
+          "width": 352,
+          "x": 6112,
+          "y": -960,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "56ea2f3a-5aef-40d8-969c-27d84fd219a4",
+          "width": 0,
+          "x": 6591,
+          "y": -961,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "MEDKIT",
+          "persistentUuid": "25b515ce-7be9-42af-aa29-6d77201fba6a",
+          "width": 64,
+          "x": 512,
+          "y": 160,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -20328,7 +21443,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.52,
+        "zoomFactor": 0.15999999999999978,
         "windowMask": false
       }
     },
@@ -20452,7 +21567,7 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.550000000000001,
+        "zoomFactor": 0.370000000000001,
         "windowMask": false
       }
     },
@@ -20782,13 +21897,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 320,
           "layer": "",
           "name": "wall",
           "persistentUuid": "3789a207-056c-4a45-ba6a-73b00cffdbaa",
-          "width": 1216,
-          "x": 0,
-          "y": -128,
+          "width": 578.7825927734375,
+          "x": -3.2585651874542236,
+          "y": -320,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20797,13 +21912,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1216,
+          "height": 578.7825927734375,
           "layer": "",
           "name": "wall",
           "persistentUuid": "51e6831f-7526-4e63-8e72-90ff109a21d3",
-          "width": 320,
-          "x": 0,
-          "y": 256,
+          "width": 152.31121826171875,
+          "x": -3.2585651874542236,
+          "y": 125.21739196777344,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -20812,13 +21927,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 640,
+          "height": 322.7825927734375,
           "layer": "",
           "name": "wall",
           "persistentUuid": "d39cd140-81ac-4ff1-b107-9f997b9dfaca",
-          "width": 511,
-          "x": 705,
-          "y": 256,
+          "width": 243.2219696044922,
+          "x": 332.30206298828125,
+          "y": 125.21739196777344,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20827,13 +21942,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 320,
+          "height": 133.56521606445312,
           "layer": "",
           "name": "wall",
           "persistentUuid": "faeac4c9-29e2-4335-9f41-eab45cb77040",
-          "width": 896,
-          "x": 320,
-          "y": 1152,
+          "width": 400.6956481933594,
+          "x": 174.82839965820312,
+          "y": 570.434814453125,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -20842,13 +21957,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 576,
+          "height": 287.6338806152344,
           "layer": "",
           "name": "wall",
           "persistentUuid": "4bfa145b-725b-4185-a23b-ee9a7e0990c3",
-          "width": 128,
-          "x": 640,
-          "y": 320,
+          "width": 42.2883415222168,
+          "x": 320,
+          "y": 160.36611938476562,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -20857,13 +21972,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 832,
+          "height": 543.6338500976562,
           "layer": "",
           "name": "wall",
           "persistentUuid": "1875e40d-145d-4fbc-a9e5-25dfa9d479fc",
-          "width": 64,
-          "x": 320,
-          "y": 320,
+          "width": 42.94734191894531,
+          "x": 149.0526580810547,
+          "y": 160.36611938476562,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -20872,13 +21987,13 @@
         {
           "angle": 90,
           "customSize": true,
-          "height": 384,
+          "height": 182.7734375,
           "layer": "",
           "name": "door",
           "persistentUuid": "70c0fd4d-a76a-490c-af52-0f4889613ea6",
-          "width": 64,
-          "x": 480,
-          "y": 96,
+          "width": 35.14873123168945,
+          "x": 222.86502075195312,
+          "y": 51.40503692626953,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -20887,13 +22002,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1,
+          "height": 0.4759725034236908,
           "layer": "",
           "name": "spawnpoint",
           "persistentUuid": "650935b0-7a32-4945-9e7f-45cde8804684",
-          "width": 1,
-          "x": 1215,
-          "y": 0,
+          "width": 0.4759725034236908,
+          "x": 575.5240478515625,
+          "y": -8.347824096679688,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -20902,13 +22017,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1,
+          "height": 0.4759725034236908,
           "layer": "",
           "name": "spawnpoint",
           "persistentUuid": "5eb0cb8c-385d-4d7e-a232-ce3f2f5db86b",
-          "width": 1,
-          "x": 1215,
-          "y": 896,
+          "width": 0.4759725034236908,
+          "x": 575.0480346679688,
+          "y": 434.5262756347656,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -20925,7 +22040,7 @@
         "gridColor": 0,
         "gridAlpha": 1,
         "snap": true,
-        "zoomFactor": 0.9700000000000006,
+        "zoomFactor": 0.3100000000000016,
         "windowMask": false
       }
     },
@@ -21108,56 +22223,11 @@
           "height": 192,
           "layer": "",
           "name": "upgrade",
-          "persistentUuid": "0a2f277f-ecea-4a8e-abf7-0ffcafa95e61",
-          "width": 192,
-          "x": 144,
-          "y": -192,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "name": "upgrade",
-          "persistentUuid": "2fdf6e83-bd18-41e9-81a6-0452ee49d1c3",
-          "width": 192,
-          "x": 624,
-          "y": -192,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "name": "upgrade",
           "persistentUuid": "45d3662f-5629-46ad-ad0d-dae11c2f2069",
           "width": 192,
           "x": 384,
-          "y": -192,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 14.47868824005127,
-          "layer": "",
-          "name": "upgrade_description",
-          "persistentUuid": "714423ee-8e7d-4e46-bf18-62a8a70cc9a2",
-          "width": 192,
-          "x": 144,
-          "y": -3.4786882400512695,
-          "zOrder": 14,
+          "y": -265.47869873046875,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21171,8 +22241,8 @@
           "persistentUuid": "b7fbd9ef-39f3-48df-a5b1-40f387f29359",
           "width": 192,
           "x": 384,
-          "y": -5,
-          "zOrder": 15,
+          "y": -78.47869110107422,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21180,14 +22250,44 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 14.47868824005127,
+          "height": 32,
           "layer": "",
-          "name": "upgrade_description",
-          "persistentUuid": "10dfa6a2-5790-43e3-b8b3-2b2a2c19a452",
-          "width": 192,
-          "x": 624,
-          "y": -5,
-          "zOrder": 16,
+          "name": "reroll_upgrades",
+          "persistentUuid": "adc53245-3765-4841-848c-b91840763bcf",
+          "width": 32,
+          "x": 864,
+          "y": -48,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 54.85714340209961,
+          "layer": "",
+          "name": "chicken",
+          "persistentUuid": "deecf8bb-929c-4625-b6a6-b17b3cc3857a",
+          "width": 64,
+          "x": 448,
+          "y": -298.8571472167969,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "name": "MEDKIT",
+          "persistentUuid": "1d7ef60d-764b-47b8-9432-6f97371de44e",
+          "width": 96,
+          "x": 400,
+          "y": 144,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21203,7 +22303,176 @@
         "gridColor": 0,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 1.280000000000005,
+        "zoomFactor": 0.5900000000000042,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "game",
+      "name": "room11",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "f73ff05b-d98f-485c-9d3c-9983c3570494",
+          "width": 960,
+          "x": 0,
+          "y": 192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "3b237c9c-374d-4ca6-8775-6263e151f5c1",
+          "width": 64,
+          "x": 0.000030517578125,
+          "y": -94,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "866e093b-2375-46b4-a324-3a0b487011d6",
+          "width": 32,
+          "x": 512,
+          "y": 224,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "bb84a39f-b26f-490a-9594-b495bb7c366e",
+          "width": 63.999969482421875,
+          "x": 896,
+          "y": -94,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "spawnpoint",
+          "persistentUuid": "b547bf44-b918-4660-b534-b991b9af0126",
+          "width": 0,
+          "x": 896,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 144,
+          "layer": "",
+          "name": "zombie",
+          "persistentUuid": "68c54c2f-3bd7-4300-a7e0-88a25ac67e6b",
+          "width": 57.599998474121094,
+          "x": 742.4000244140625,
+          "y": 48,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 144,
+          "layer": "",
+          "name": "zombie",
+          "persistentUuid": "41f8516b-0795-49f8-bb63-713b31e2ec64",
+          "width": 57.599998474121094,
+          "x": 656,
+          "y": 48,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 144,
+          "layer": "",
+          "name": "zombie",
+          "persistentUuid": "a129e9e8-0233-44ce-877c-e32f80ae6b49",
+          "width": 57.599998474121094,
+          "x": 569.5999755859375,
+          "y": 48,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 144,
+          "layer": "",
+          "name": "zombie",
+          "persistentUuid": "53b4eaa1-0199-4528-8cf1-80a30bd0eb12",
+          "width": 57.599998474121094,
+          "x": 483.20001220703125,
+          "y": 48,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 144,
+          "layer": "",
+          "name": "zombie",
+          "persistentUuid": "6e349d71-7f2e-4671-a076-218f74d4f353",
+          "width": 57.599998474121094,
+          "x": 396.79998779296875,
+          "y": 48,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 0,
+        "gridAlpha": 0.1,
+        "snap": true,
+        "zoomFactor": 1.1300000000000041,
         "windowMask": false
       }
     }
